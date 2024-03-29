@@ -1,0 +1,62 @@
+﻿@model App.Models.Contacts.Contact
+
+@{
+	ViewData["Title"] = "Gửi liên hệ";
+}
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+	<section id="contact" class="container">
+		<div class="section-content">
+			<h1 class="section-header">Chúng tôi <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> luôn lắng nghe bạn</span></h1>
+			<h4><i class="fa-solid fa-phone text-danger"></i>: 0343080021 </h4>
+		</div>
+		<div class="contact-section">
+			<div class="container">
+				<form asp-action="SendContact">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+					<div class="row">
+
+						<div class="col-md-6">
+							<div class="form-group">
+								<label asp-for="FullName"></label>
+								<input asp-for="FullName" class="form-control" placeholder="Nhập họ và tên">
+								<span asp-validation-for="FullName" class="text-danger"></span>
+
+							</div>
+							<div class="form-group">
+								<label asp-for="Address">Địa chỉ</label>
+								<input asp-for="Address" class="form-control" placeholder="Ex: 79 Mai Thị Dõng, Vĩnh Ngọc, Nha Trang, Khánh Hòa">
+								<span asp-validation-for="Address" class="text-danger"></span>
+
+							</div>
+							<div class="form-group">
+								<label asp-for="Phone">Số điện thoại</label>
+								<input asp-for="Phone" type="tel" class="form-control" placeholder="Nhập số điện thoại của bạn">
+								<span asp-validation-for="Phone" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label asp-for="Message"> Message</label>
+								@{
+									var text = " Bạn cần sử dụng dịch vụ gì?\n " +
+									"Khi nào bạn có thời gian rảnh để sử dụng dịch vụ? ";
+								}
+								<textarea asp-for="Message" class="form-control" placeholder="@text"></textarea>
+								<span asp-validation-for="Message" class="text-danger"></span>
+							</div>
+							<div>
+								<button type="submit" class="btn btn-light submit mt-4">  Gửi</button>
+							</div>
+
+						</div>
+					</div>
+				</form>
+			</div>
+	</section>
+
+</div>

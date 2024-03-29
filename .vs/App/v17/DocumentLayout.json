@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Project\\Du_An\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\views\\contact\\sendcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\sendcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\views\\shared\\_menumanagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\_menumanagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\models\\contact\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\models\\contact\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T15:14:51.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SendContact.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T15:06:17.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Models\\Contact\\Contact.cs",
+              "RelativeDocumentMoniker": "App\\Models\\Contact\\Contact.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Models\\Contact\\Contact.cs",
+              "RelativeToolTip": "App\\Models\\Contact\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:57:22.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_MenuManagePartial.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "RelativeToolTip": "App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T14:56:36.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswEoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:56:20.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAkwCwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T14:51:50.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

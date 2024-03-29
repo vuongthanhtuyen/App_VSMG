@@ -1,0 +1,60 @@
+@using Microsoft.EntityFrameworkCore
+@using System.Data
+@using App.Models
+@inject AppDbContext dbContext
+
+@* inject AppDbcontext vào biên dbcontext *@
+@{
+    ViewData["Title"] = "Thông tin DB";
+    var connect = dbContext.Database.GetDbConnection();
+    var dbname = connect.Database;
+    var can_connet = dbContext.Database.CanConnect();
+    
+    dbContext.Database.GetPendingMigrations(); // lấy pending
+    dbContext.Database.GetAppliedMigrations(); // lấy migrations đã apply
+
+
+
+}
+
+
+<partial name="_AlertMessage"/>
+<h1>Thông tin từ cơ sở dữ liệu</h1>
+
+<h2>Thông tin</h2>
+<p> - Database: @dbname</p>
+<p> - Sourcr: @connect.DataSource</p>
+<p> - State: @connect.State</p>
+<p> - Database: @dbname</p>
+
+<h2>Migrations</h2>
+@foreach(var m in dbContext.Database.GetAppliedMigrations()){
+    <p> Migrations Applied: @m</p>
+}
+@foreach(var m in dbContext.Database.GetPendingMigrations()){
+    <p> Migrations: @m (Pending)</p>
+}
+@if(!can_connet){
+    <p class="alert alert-danger">Không có khả năng kết nối đến database</p>
+}
+@if (dbContext.Database.GetPendingMigrations().Any())
+{
+  <form method="post">
+      <button class = "btn btn-success" asp-action="Migrate">Tạo Db (Cập nhật migration)</button>
+  </form>
+  
+}y
+
+
+
+@if(can_connet){
+    <h2>Các Table</h2>
+    await dbContext.Database.OpenConnectionAsync();
+    var Table = dbContext.Database.GetDbConnection().GetSchema("Tables");
+ <ul>
+    @foreach(System.Data.DataRow row in Table.Rows){
+    <li> @row["Table_Name"]</li>
+     }
+ </ul>
+ <a class="btn btn-danger" asp-action="DeleteDB"> Xóa Database: @dbname</a>
+}
