@@ -273,3 +273,4 @@ E:\Project\Du_An\App\App\obj\Debug\net8.0\App.csproj.AssemblyReference.cache
 E:\Project\Du_An\App\App\obj\Debug\net8.0\App.csproj.Up2Date
 E:\Project\Du_An\App\App\bin\Debug\net8.0\package-lock.json
 E:\Project\Du_An\App\App\bin\Debug\net8.0\package.json
+E:\Project\Du_An\App\app\obj\Debug\net8.0\App.sourcelink.json

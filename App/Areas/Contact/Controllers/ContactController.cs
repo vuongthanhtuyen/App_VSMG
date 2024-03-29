@@ -72,25 +72,45 @@ namespace App.Areas.Contact.Controllers
             return View(contact) ;
         }
 
-        [HttpPost("/admin/contact/delete/{id}")]
-        public async Task<IActionResult> delete(int? id)
+
+
+
+        [HttpGet("/admin/contact/delete/{id}")]
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var contact = await _context.Contacts.FirstOrDefaultAsync(m => m.Id == id);
+            var contact = await _context.Contacts
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (contact == null)
             {
                 return NotFound();
+            }
 
+            return View(contact);
+        }
+
+
+        [HttpPost("/admin/contact/delete/{id}"), ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var contact = await _context.Contacts.FindAsync(id);
+
+            if (contact == null)
+            {
+                return NotFound();
             }
             _context.Contacts.Remove(contact);
             await _context.SaveChangesAsync();
-            StatusMessage = "Bạn đã xóa liên hệ";
-            return RedirectToAction("Index", "Home");
-
+            return RedirectToAction(nameof(Index));
         }
 
 

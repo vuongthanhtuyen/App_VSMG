@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Danh sách liên hệ";
+    var vitem=0;
 }
 
 <h1>@ViewData["Title"]</h1>
@@ -23,6 +24,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Phone)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -30,7 +34,7 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>
+                <td >
                     @Html.DisplayFor(modelItem => item.FullName)
                 </td>
                 <td>
@@ -43,24 +47,54 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Phone)
                 </td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@item.Id">Xem</a> |
+                <td class="col-sm-4">
+                    
+                    <p class="linetype">
+                        @Html.DisplayFor(modelItem => item.Message)
 
-                    <a onclick="myFunction()" asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                    </p>
+                </td>
+                <td>
+                    <a class="btn btn-link" asp-action="Details" asp-route-id="@item.Id">Xem</a> |
+
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalCenter">
+                        Xóa
+                        @{
+                            vitem = item.Id;
+                        }
+                    </button>
+
                 </td>
             </tr>
         }
     </tbody>
 </table>
-<script>
-    function myFunction() {
-        var txt;
-        if (confirm("Press a button!")) {
 
-            txt = "You pressed OK!";
-        } else {
-            txt = "You pressed Cancel!";
-        }
-        document.getElementById("demo").innerHTML = txt;
-    }
-</script>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Bạn có chắc muốn xóa</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Thao tác này sẽ không thể phục hồi lại!!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+                <form asp-action="Delete" asp-route-id="@vitem">
+                    <input type="hidden" asp-route-id="@vitem" />
+                    <input type="submit" value="Xóa" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

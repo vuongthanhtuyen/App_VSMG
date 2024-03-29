@@ -1,6 +1,63 @@
 ﻿@model App.Models.Contacts.Contact
 
 @{
-    ViewData["Title"] = "Thông tin liên hệ";
+    ViewData["Title"] = "Chi tiết liên hệ";
 }
-<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Title"]</h3>
+
+
+<p>
+    <strong> @Html.DisplayNameFor(model => model.FullName):</strong>
+    @Html.DisplayFor(modelItem => Model.FullName)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Phone):</strong>
+    @Html.DisplayFor(modelItem => Model.Phone)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Address):</strong>
+    @Html.DisplayFor(modelItem => Model.Address)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.DateSent):</strong>
+    @Html.DisplayFor(modelItem => Model.DateSent)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Message):</strong>
+    @Html.DisplayFor(modelItem => Model.Message)
+</p>
+
+
+<a asp-action="index" asp-controller="contact" class="btn btn-outline-dark" >Danh sách liên hệ</a>
+<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModalCenter">
+    Xóa
+    </button>
+
+                
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Bạn có chắc muốn xóa</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Thao tác này sẽ không thể phục hồi lại!!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+                <form asp-action="Delete" asp-route-id="@Model.Id">
+                    <input type="hidden" asp-route-id="@Model.Id" />
+                    <input type="submit" value="Xóa" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
