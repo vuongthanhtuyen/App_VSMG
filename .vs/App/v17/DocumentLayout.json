@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "E:\\Project\\Du_An\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\migrations\\20240330115044_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\migrations\\20240330115044_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,103 +42,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\appsettings.json",
-              "RelativeDocumentMoniker": "App\\appsettings.json",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\appsettings.json",
-              "RelativeToolTip": "App\\appsettings.json",
+              "DocumentIndex": 3,
+              "Title": "20240330115044_addIdentity.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Migrations\\20240330115044_addIdentity.cs",
+              "RelativeDocumentMoniker": "App\\Migrations\\20240330115044_addIdentity.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Migrations\\20240330115044_addIdentity.cs",
+              "RelativeToolTip": "App\\Migrations\\20240330115044_addIdentity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T11:51:02.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "App\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "App\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-30T11:25:19.373Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T11:51:00.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "package.json",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\package.json",
-              "RelativeDocumentMoniker": "App\\package.json",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\package.json",
-              "RelativeToolTip": "App\\package.json",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-30T11:25:13.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Program.cs",
               "RelativeDocumentMoniker": "App\\Program.cs",
               "ToolTip": "E:\\Project\\Du_An\\App\\App\\Program.cs",
               "RelativeToolTip": "App\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwvzYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T11:25:10.828Z",
+              "WhenOpened": "2024-03-30T11:43:32.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "App\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "App\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T15:06:01.859Z",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "App\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "App\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T11:41:21.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Delete.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\Delete.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Delete.cshtml",
-              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:39:23.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
-              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:38:33.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Controllers\\ContactController.cs",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "App\\Areas\\Contact\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowEcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:37:47.622Z"
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\README.md",
+              "RelativeDocumentMoniker": "App\\README.md",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\README.md",
+              "RelativeToolTip": "App\\README.md",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAQwNMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-03-30T11:38:53.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAiwFYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:09:25.942Z"
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "App\\Models\\AppUser.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Models\\AppUser.cs",
+              "RelativeToolTip": "App\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T11:36:33.389Z",
+              "EditorCaption": ""
             }
           ]
         }

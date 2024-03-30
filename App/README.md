@@ -164,4 +164,52 @@
     B8: Xây dụng controler và view : copy here - https://xuanthulab.net/asp-net-core-mvc-tich-hop-entity-framework-va-identity.html
     B9: Nếu có thêm mới libman: gõ: libman restore
     
+# Thêm Identity vào dự án
+    B1: Thêm package
+
+        dotnet add package System.Data.SqlClient
+        dotnet add package Microsoft.EntityFrameworkCore
+        dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+        dotnet add package Microsoft.EntityFrameworkCore.Design
+        dotnet add package Microsoft.Extensions.DependencyInjection
+        dotnet add package Microsoft.Extensions.Logging.Console
+
+        dotnet add package Microsoft.AspNetCore.Identity
+        dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
+        dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+        dotnet add package Microsoft.AspNetCore.Identity.UI
+        dotnet add package Microsoft.AspNetCore.Authentication
+        dotnet add package Microsoft.AspNetCore.Http.Abstractions
+    B2: 
+        - Atthenticatein: Xác định danh tính
+        - Authorization: Xác thực quyền truy cập
+        
+        Đảm bảo tại file program.cs có: 
+            app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+        Tạo một file AppUser.cs 
+            
+        Tại file AppDbContext, thêm kế thừa như sau: 
+            public class AppDbContext : IdentityDbContext<AppUser>{}
+
+        Đăng ký các dịch vụ của Identity User            
+            builder.Services.AddIdentity<AppUser, IdentityRole>()
+                    .AddEntityFrameworkStores<AppDbContext>()
+                    .AddDefaultTokenProviders();
+    B3: Gỡ tiền tố ASPNET 
+        Tại AppDBContext: 
+            foreach(var entityType in modelBuilder.Model.GetEntityTypes())
+            {
+                var tableName = entityType.GetTableName();
+                if (tableName.StartsWith("AspNet"))
+                {
+                    entityType.SetTableName(tableName.Substring(6));
+                }
+            }
+
+    B4: Thiết lập cài đặng cho đăng nhập trong program.cs
+       
+
 
