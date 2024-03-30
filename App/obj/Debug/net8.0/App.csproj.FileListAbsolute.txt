@@ -283,3 +283,5 @@ E:\Project\Du_An\App\App\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 E:\Project\Du_An\App\App\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\Project\Du_An\App\App\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 E:\Project\Du_An\App\App\obj\Debug\net8.0\App.MvcApplicationPartsAssemblyInfo.cs
+E:\Project\Du_An\App\app\bin\Debug\net8.0\appsettings.identity.json
+E:\Project\Du_An\App\app\bin\Debug\net8.0\libman.json

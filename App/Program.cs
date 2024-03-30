@@ -1,4 +1,5 @@
-﻿using App.Models;
+﻿using App.Data;
+using App.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -48,11 +49,24 @@ builder.Services.Configure<IdentityOptions>(options => {
     options.User.RequireUniqueEmail = true;  // Email là duy nhất
 
     // Cấu hình đăng nhập.
-    options.SignIn.RequireConfirmedEmail = false;            // Cấu hình xác thực địa chỉ email (email phải tồn tại)
+    options.SignIn.RequireConfirmedEmail = true;            // Cấu hình xác thực địa chỉ email (email phải tồn tại)
     options.SignIn.RequireConfirmedPhoneNumber = false;     // Xác thực số điện thoại
 
 });
 
+builder.Services.ConfigureApplicationCookie(options => {
+    options.LoginPath = "/Login/";
+    options.LogoutPath = "/Logout/";
+    options.AccessDeniedPath = "/khongduoctruycap.html";
+});
+
+// Kiểm tra quyển để hiện thông tin manager
+builder.Services.AddAuthorization(options => {
+    options.AddPolicy("ViewManageMenu", builders => {
+        builders.RequireAuthenticatedUser();
+        builders.RequireRole(RoleName.Administrator);
+    });
+});
 
 
 
