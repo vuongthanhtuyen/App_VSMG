@@ -72,6 +72,7 @@ namespace App.Areas.Identity.Controllers
                         .Select(u => new UserAndRole() {
                             Id = u.Id,
                             UserName = u.UserName,
+                            EmailConfirmed = u.EmailConfirmed,
                         });
 
             model.users = await qr1.ToListAsync();
@@ -79,9 +80,10 @@ namespace App.Areas.Identity.Controllers
             foreach (var user in model.users)
             {
                 var roles = await _userManager.GetRolesAsync(user);
-                user.RoleNames = string.Join(",", roles);
-            } 
-            
+                user.RoleNames = string.Join(", ", roles);
+
+            }
+
             return View(model);
         } 
 
@@ -334,5 +336,19 @@ namespace App.Areas.Identity.Controllers
             where c.UserId == model.user.Id select c).ToListAsync();
 
         }
-  }
+
+
+        public async Task<IActionResult> ChangeEmailComfirmed(string userid, bool emailcomfirmed)
+        {
+            if (userid ==null) return NotFound();
+            var user = await _context.Users.Where(u => u.Id ==userid).FirstOrDefaultAsync(); 
+            if (user == null) return NotFound();
+            user.EmailConfirmed = emailcomfirmed;
+            await _context.SaveChangesAsync();
+            StatusMessage = "Bạn vừa cập nhập lại Emailcomfirmed";
+            return RedirectToAction("index");
+
+        }
+
+    }
 }

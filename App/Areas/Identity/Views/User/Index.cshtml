@@ -14,6 +14,11 @@
         <th>Tác vụ</th>
 
     </tr>
+@*     @for(var i; i <=Model.users.Count(); i++)
+    {
+        
+    }
+ *@
     @foreach (var user in Model.users)
     {
         <tr>
@@ -29,14 +34,64 @@
                     <a asp-action="AddRole" asp-route-id="@user.Id">@user.RoleNames</a>
                 }
             </td>
-            <td>@user.EmailConfirmed, @user.Email good</td>
+
+
+            <td>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" data-value="@user.EmailConfirmed">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">@user.EmailConfirmed</label>
+    
+                </div>
+@*                 <form asp-action="ChangeEmailComfirmed" asp-route-id="@user.Id">
+                    <input type="hidden" asp-route-id="@user.Id" />
+                    <input type="type" asp-for="emailcomfirmed" value="" />
+                    <input type="submit" value="Xóa" class="btn btn-danger" />
+                </form> *@
+
+            </td>
 
             <td>
                 <a class="btn btn-success btn-sm" asp-action="SetPassword" asp-route-id="@user.Id">Đặt mật khẩu</a>
             </td>
         </tr>
     }
+    <form id="hiddenForm" action="/your-action" method="post">
+        <!-- Thêm các trường dữ liệu ẩn nếu cần -->
+    </form>
+
+
+
+
+
 </table>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var switchCheckbox = document.getElementById('flexSwitchCheckDefault');
+
+        // Lấy giá trị dữ liệu từ thuộc tính data-value của checkbox
+        var dataToCheck = switchCheckbox.getAttribute('data-value') === 'True';
+
+        // Thiết lập trạng thái của checkbox dựa trên dữ liệu
+        switchCheckbox.checked = dataToCheck;
+
+        switchCheckbox.addEventListener('change', function () {
+            if (this.checked) {
+                alert('Người dùng đã chọn switch.');
+                // Thực hiện các hành động khi switch được chọn
+            } else {
+                alert('Người dùng đã bỏ chọn switch.');
+                // Thực hiện các hành động khi switch không được chọn
+            }
+        });
+    });
+
+</script>
+
+
+
 @{
     var pagingmodel = new PagingModel()
     {
