@@ -337,13 +337,22 @@ namespace App.Areas.Identity.Controllers
 
         }
 
-
-        public async Task<IActionResult> ChangeEmailComfirmed(string userid, bool emailcomfirmed)
+        [HttpPost]
+        public async Task<IActionResult> ChangeEmailComfirmed(string Id)
         {
-            if (userid ==null) return NotFound();
-            var user = await _context.Users.Where(u => u.Id ==userid).FirstOrDefaultAsync(); 
+            if (Id ==null) return NotFound(); 
+            var user = await _context.Users.Where(u => u.Id ==Id).FirstOrDefaultAsync(); 
+
             if (user == null) return NotFound();
-            user.EmailConfirmed = emailcomfirmed;
+
+            if (user.EmailConfirmed)
+            {
+                user.EmailConfirmed=false;
+            }
+            else
+            {
+                user.EmailConfirmed=true;
+            }
             await _context.SaveChangesAsync();
             StatusMessage = "Bạn vừa cập nhập lại Emailcomfirmed";
             return RedirectToAction("index");

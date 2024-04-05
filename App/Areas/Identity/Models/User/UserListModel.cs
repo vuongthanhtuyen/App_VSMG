@@ -12,7 +12,7 @@ namespace App.Areas.Identity.Models.UserViewModels
 
         public int currentPage { get; set; }
 
-    public List<UserAndRole> users { get; set; }
+        public List<UserAndRole> users { get; set; }
         //public List<AppUser> AppUsers { get; set; }
             
 

@@ -1,6 +1,13 @@
 @model UserListModel
 @{
     ViewData["Title"] = "Danh sách các thành viên";
+    var iditem = "";
+    var comfirm = true;
+    var switchid = "";
+    var buttonid = "";
+
+
+
 }
 <h2>@ViewData["Title"]</h2>
 <partial name="_StatusMessage"></partial>
@@ -37,16 +44,95 @@
 
 
             <td>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" data-value="@user.EmailConfirmed">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">@user.EmailConfirmed</label>
-    
-                </div>
-@*                 <form asp-action="ChangeEmailComfirmed" asp-route-id="@user.Id">
-                    <input type="hidden" asp-route-id="@user.Id" />
-                    <input type="type" asp-for="emailcomfirmed" value="" />
-                    <input type="submit" value="Xóa" class="btn btn-danger" />
-                </form> *@
+                @{
+                    iditem = "comfirm" + user.Id;
+                    switchid = "switch" + user.Id;
+                    buttonid = "btn" + user.Id;
+                }
+
+
+                
+                <form id="deleteForm" asp-action="ChangeEmailComfirmed" asp-route-id="@user.Id" method="post">
+                    @* submit dữ liệu *@
+                    <input type="hidden" asp-route-id="@user.Id" name="@user.EmailConfirmed" />
+                    <input type="hidden" name="EmailConfirmed" id="emailConfirmedField"/>
+
+                    @* switch  *@
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="@switchid" data-toggle="modal" data-target="#@iditem" data-value="@user.EmailConfirmed">
+                        <label class="form-check-label" for="@switchid">@user.EmailConfirmed</label>
+
+                    </div>
+
+                    @* model hiểu thị giao diện xác nhận *@
+                    <div class="modal fade" id="@iditem" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Vui lòng xác nhận</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    @{
+                                        if (user.EmailConfirmed)
+                                        {
+                                            <p>Bạn muốn gỡ quyền truy cập của <strong>
+                                            @user.UserName
+                                                </strong> </p>
+                                        }else
+                                        {
+                                            <p>Bạn cho phép <strong> @user.UserName</strong> quyền truy cập  </p>
+                                        }
+                                    }
+                                </div>
+                                
+                                <div class="modal-footer">
+                                    <button type="button" id="@buttonid" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+                                    <form asp-action="ChangeEmailComfirmed" asp-route-id="@user.Id">
+                                        <input type="hidden" asp-route-id="@user.Id" />
+                                        <input type="submit" value="Đồng ý" class="btn btn-danger" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                </form>
+
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+
+                        var emailConfirmedSwitch = document.getElementById('@switchid');
+
+                        var emailConfirmedCheckbox = document.getElementById('@switchid');
+                        var dataValue = emailConfirmedCheckbox.getAttribute('data-value');
+
+                        var btnexit = document.getElementById('@buttonid');
+
+
+
+                        var addButton = document.getElementById('@buttonid');
+
+                        // Lắng nghe sự kiện click của thoát
+                        btnexit.addEventListener('click', function () {
+                            // Gọi hành động của button
+                            emailConfirmedSwitch.click();
+                        });
+
+
+                        // Kiểm tra giá trị của data-value
+                        if (dataValue === 'True' || dataValue === 'true') {
+                            emailConfirmedCheckbox.checked = true;
+                        } else {
+                            emailConfirmedCheckbox.checked = false;
+                        }
+                    });
+                </script>
 
             </td>
 
@@ -54,11 +140,9 @@
                 <a class="btn btn-success btn-sm" asp-action="SetPassword" asp-route-id="@user.Id">Đặt mật khẩu</a>
             </td>
         </tr>
-    }
-    <form id="hiddenForm" action="/your-action" method="post">
-        <!-- Thêm các trường dữ liệu ẩn nếu cần -->
-    </form>
 
+
+    }
 
 
 
@@ -67,28 +151,7 @@
 
 
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var switchCheckbox = document.getElementById('flexSwitchCheckDefault');
 
-        // Lấy giá trị dữ liệu từ thuộc tính data-value của checkbox
-        var dataToCheck = switchCheckbox.getAttribute('data-value') === 'True';
-
-        // Thiết lập trạng thái của checkbox dựa trên dữ liệu
-        switchCheckbox.checked = dataToCheck;
-
-        switchCheckbox.addEventListener('change', function () {
-            if (this.checked) {
-                alert('Người dùng đã chọn switch.');
-                // Thực hiện các hành động khi switch được chọn
-            } else {
-                alert('Người dùng đã bỏ chọn switch.');
-                // Thực hiện các hành động khi switch không được chọn
-            }
-        });
-    });
-
-</script>
 
 
 
@@ -100,5 +163,13 @@
         generateUrl = (int? p) => Url.Action("Index", new { p = p})
     };
 }
+
+
+
+
+
+
+
+
 
 <partial name="_PagingXTL" model="@pagingmodel" />
