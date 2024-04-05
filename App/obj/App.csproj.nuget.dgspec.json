@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\Du_An\\App\\App\\App.csproj": {}
+    "E:\\Project\\Du_An\\App\\app\\App.csproj": {}
   },
   "projects": {
-    "E:\\Project\\Du_An\\App\\App\\App.csproj": {
+    "E:\\Project\\Du_An\\App\\app\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\Du_An\\App\\App\\App.csproj",
+        "projectUniqueName": "E:\\Project\\Du_An\\App\\app\\App.csproj",
         "projectName": "App",
-        "projectPath": "E:\\Project\\Du_An\\App\\App\\App.csproj",
+        "projectPath": "E:\\Project\\Du_An\\App\\app\\App.csproj",
         "packagesPath": "C:\\Users\\vuong\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\Du_An\\App\\App\\obj\\",
+        "outputPath": "E:\\Project\\Du_An\\App\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,6 +72,12 @@
               "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
             },

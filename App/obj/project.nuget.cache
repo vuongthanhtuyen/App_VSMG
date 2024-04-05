@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WYe4WB+/zSubuQVfuPXkrHXQMnzc6xK45yne93UmQ/g35woneA2iXDFTg82bBaESbEN/JueQg1pPjT33Jz6YCA==",
+  "dgSpecHash": "aLWILn5MZYbJ/yTX/GvVVT9os6NJhLDqE9WgZ2QBjVWNZ478gj8Ng69HqVv7H21qnE2FSQV6fvs5iOpOfKpWdQ==",
   "success": true,
-  "projectFilePath": "E:\\Project\\Du_An\\App\\App\\App.csproj",
+  "projectFilePath": "E:\\Project\\Du_An\\App\\app\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vuong\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -106,6 +106,7 @@
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.3\\microsoft.entityframeworkcore.design.8.0.3.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.3\\microsoft.entityframeworkcore.relational.8.0.3.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.3\\microsoft.entityframeworkcore.sqlserver.8.0.3.nupkg.sha512",
+    "C:\\Users\\vuong\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.3\\microsoft.entityframeworkcore.tools.8.0.3.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

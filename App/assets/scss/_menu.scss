@@ -1,20 +1,30 @@
 
 .app-navbar {
-  background: rgba(0,0,0, 0.8);
-  .text-dark {
-     color: #b9c3ce !important;
-     &:hover {
-        color: white !important;
-     }
-  }
-  .navbar-brand {
-    color: #a57dea;
-    &:hover {
-      color: #d727da !important;
-   }
-  }
-  .dropdown-toggle {
-     border-color: #a562ad;
-     color: #ae84b3;
-  }
+    background: rgba(0,0,0, 0.8);
+
+    .text-dark {
+        color: #b9c3ce !important;
+
+        &:hover {
+            color: white !important;
+        }
+    }
+
+    .navbar-brand {
+        color: #a57dea;
+
+        &:hover {
+            color: #d727da !important;
+        }
+    }
+
+    .dropdown-toggle {
+        border-color: #a562ad;
+        color: #ae84b3;
+    }
+    /* _dropdown.scss:36 */
+    .dropdown-menu-right {
+        right: 0;
+        left: auto;
+    }
 }
