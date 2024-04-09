@@ -1,0 +1,49 @@
+﻿@using App.Models.Blog
+@model IEnumerable<App.Models.Blog.Post>
+
+@{
+    ViewData["Title"] = "Danh sách Blog";
+    var vitem = "";
+    var stt = 0;
+}
+
+<h3>@ViewData["Title"]</h3>
+
+
+
+<a asp-action="Create" class="btn btn-outline-info">Tạo mới</a>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Published)</th>
+            <th>@Html.DisplayNameFor(model => model.Author)</th>
+            <th>@Html.DisplayNameFor(model => model.DateUpdated)</th>
+            <th></th>
+        </tr>
+
+
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            stt++;
+            <tr>
+                <th>STT</th>
+                <th>@Html.DisplayFor(model => item.Title)</th>
+                <th>@Html.DisplayFor(model => item.Published)</th>
+                <th>@Html.DisplayFor(model => item.Author)</th>
+                <th>@Html.DisplayFor(model => item.DateUpdated)</th>
+                <th></th>
+            </tr>
+            
+        }
+
+    </tbody>
+
+</table>
