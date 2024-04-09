@@ -39,14 +39,16 @@ namespace App.Areas.Contact.Controllers
 
 
 		[HttpGet("/contact/")]
-		public IActionResult SendContact()
+        [AllowAnonymous]
+        public IActionResult SendContact()
 		{
 
 			return View();
 		}
 
 		[HttpPost("/contact")]
-		public async Task<IActionResult> SendContact([Bind("Message, FullName, Address, Phone")] ContactModel contact)
+        [AllowAnonymous]
+        public async Task<IActionResult> SendContact([Bind("Message, FullName, Address, Phone")] ContactModel contact)
 		{
 			if (ModelState.IsValid)
 			{

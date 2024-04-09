@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\Project\\Du_An\\App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,29 +38,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "App\\Areas\\Contact\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:26:15.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T10:14:25.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T09:19:32.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "App\\Areas\\Blog\\Controllers\\CategoryController.cs",
               "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "App\\Areas\\Blog\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAgwHsAAAANAAAA",
+              "ViewState": "AQIAANIAAAAAAAAAAAAcwBEBAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T04:38:29.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T04:38:29.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
               "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
               "RelativeToolTip": "App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T02:05:10.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T02:05:10.315Z"
             }
           ]
         }
