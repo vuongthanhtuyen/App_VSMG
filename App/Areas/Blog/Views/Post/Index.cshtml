@@ -7,7 +7,9 @@
     var stt = 0;
 }
 
-<h3>@ViewData["Title"]</h3>
+<h3>@ViewData["Title"] - @Model.Count()</h3>
+<partial name="_AlertMessage" />
+
 
 
 
@@ -33,13 +35,42 @@
         @foreach (var item in Model)
         {
             stt++;
+            vitem = "indexPost" + item.PostId;
             <tr>
-                <th>STT</th>
-                <th>@Html.DisplayFor(model => item.Title)</th>
+                <th>@stt</th>
+                <th><a asp-action="Edit" asp-controller="Post" asp-route-id="@item.PostId">@Html.DisplayFor(model => item.Title)</a></th>
                 <th>@Html.DisplayFor(model => item.Published)</th>
-                <th>@Html.DisplayFor(model => item.Author)</th>
+                <th>
+                    @Html.DisplayFor(model => item.Author.UserName)
+                </th>
                 <th>@Html.DisplayFor(model => item.DateUpdated)</th>
-                <th></th>
+                <th>
+                    <a class="btn btn-link" asp-action="Details" asp-controller="Post" asp-route-id="@item.PostId">Chi tiết</a> |
+                    <a class="btn btn-link" data-toggle="modal" data-target="#@vitem"> Xóa</a>
+                    <div class="modal fade" id="@vitem" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Bạn có chắc muốn xóa</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Thao tác này sẽ không thể phục hồi lại!!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+                                    <form asp-action="Delete" asp-route-id="@item.PostId">
+                                        <input type="hidden" asp-route-id="@item.PostId" />
+                                        <input type="submit" value="Xóa" class="btn btn-danger" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </th>
             </tr>
             
         }
