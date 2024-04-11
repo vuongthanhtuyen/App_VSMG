@@ -7,10 +7,8 @@
     var stt = 0;
 }
 
-<h3>@ViewData["Title"] - @Model.Count()</h3>
+<h3>@ViewData["Title"] : @ViewBag.totalPost bài</h3>
 <partial name="_AlertMessage" />
-
-
 
 
 <a asp-action="Create" class="btn btn-outline-info">Tạo mới</a>
@@ -37,8 +35,15 @@
             stt++;
             vitem = "indexPost" + item.PostId;
             <tr>
-                <th>@stt</th>
-                <th><a asp-action="Edit" asp-controller="Post" asp-route-id="@item.PostId">@Html.DisplayFor(model => item.Title)</a></th>
+                <th>@(++ViewBag.postIndex)</th>
+                <th>
+                    <a asp-action="Edit" asp-controller="Post" asp-route-id="@item.PostId">@Html.DisplayFor(model => item.Title)</a>
+                    <br />
+                    <small >
+                        @string.Join(", ", item.PostCategories.Select(pc => pc.Category.Title))
+
+                    </small>
+                </th>
                 <th>@Html.DisplayFor(model => item.Published)</th>
                 <th>
                     @Html.DisplayFor(model => item.Author.UserName)
@@ -78,3 +83,7 @@
     </tbody>
 
 </table>
+
+
+@* Thêm thanh phân trang *@
+<partial name="_PagingXTL" model="@ViewBag.pagingModel"/>
