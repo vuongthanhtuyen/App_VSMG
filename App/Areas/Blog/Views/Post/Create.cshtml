@@ -71,10 +71,10 @@
 
     <partial name="_ValidationScriptsPartial" />
 }
-
-@* @{
-    var summenote = new App.Models.Summernote("#Content", true);
+@{
+    var summenote = new App.Models.Summernote("#Content", true){
+        height = 500
+    };
 }
 
 <partial name="_Summenote" model="summenote" />
- *@

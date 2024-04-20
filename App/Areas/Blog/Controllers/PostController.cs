@@ -301,7 +301,3 @@ namespace AppMvc.Areas.Blog.Controllers
 }
 
 
-// Đã làm xong create - done
-// Edit - Done
-// Delete Done
-// Details Done

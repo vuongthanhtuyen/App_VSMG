@@ -259,6 +259,30 @@
                 _roleManager = roleManager;
             }
 
-         
+         ....
+         ---
+ # Tích hợp thư viện edit - summernote vào dự án
+        B1: Thêm vào file libman.json
+             {
+                "library": "summernote@0.8.20",
+                "destination": "wwwroot/lib/summernote"
+              }
+
+              --> Gõ libman restore tại terminal
+        B2: 
+            Nạp Script > Nạp Summernote> code edit
+            - Nạp script lên đầu
+            - Thêm file _summernote, thêm model Summernote
+            _ Sử dụng: 
+                <textarea id="summernoteEditor" name="editordata"></textarea>
+
+                @{
+                    var summenote = new App.Models.Summernote("#summernoteEditor", true);
+                }
+
+                <partial name="_Summenote" model="summenote" />
+        B3: Xong rồi
+
+
 
 

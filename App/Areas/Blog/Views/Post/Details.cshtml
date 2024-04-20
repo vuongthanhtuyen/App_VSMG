@@ -24,7 +24,7 @@
 </p>
 <p>
     <strong>@Html.DisplayNameFor(model => model.Content):</strong>
-    @Html.DisplayFor(modelItem => Model.Content)
+    @Html.Raw(@Model.Content)
 </p>
 <p>
     <strong>@Html.DisplayNameFor(model => model.DateCreated):</strong>

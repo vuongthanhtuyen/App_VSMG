@@ -95,3 +95,12 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+// Đã làm xong create - done
+// Edit - Done
+// Delete Done
+// Details Done
+// Tích họp Summernote - Done
+// Quản lý thư mục, ảnh...
+// 

@@ -47,3 +47,8 @@
         </form>
     </div>
 </div>
+@{
+    var summenote = new App.Models.Summernote("#Description", true);
+}
+
+<partial name="_Summenote" model="summenote" />
