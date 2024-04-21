@@ -2,6 +2,7 @@
 using App.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -85,6 +86,21 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "Uploads")
+        ),
+    RequestPath = "/contents"
+});
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")
+        ),
+});
+
+
 app.UseRouting();
 
 app.UseAuthentication();
@@ -102,5 +118,5 @@ app.Run();
 // Delete Done
 // Details Done
 // Tích họp Summernote - Done
-// Quản lý thư mục, ảnh...
+// Quản lý thư mục, ảnh... 21/4/2024 - Done
 // 

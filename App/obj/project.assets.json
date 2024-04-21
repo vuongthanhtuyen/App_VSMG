@@ -59,6 +59,22 @@
           }
         }
       },
+      "elFinder.NetCore/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "SixLabors.ImageSharp": "3.1.2",
+          "System.Text.Json": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/elFinder.NetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/elFinder.NetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -2743,6 +2759,22 @@
           }
         }
       },
+      "SixLabors.ImageSharp/3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -3496,7 +3528,7 @@
           }
         }
       },
-      "System.Text.Json/8.0.0": {
+      "System.Text.Json/8.0.1": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
@@ -3663,6 +3695,18 @@
         "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
         "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
         "packageIcon.png"
+      ]
+    },
+    "elFinder.NetCore/1.4.0": {
+      "sha512": "WiXF0mOYMOCn0pMXajZH7a3hWZZ+35fcy+LumNTAEEF5owAchoFXlZTfYRS1cYptjJ+aYOfwntISk0FsNkkd1g==",
+      "type": "package",
+      "path": "elfinder.netcore/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "elfinder.netcore.1.4.0.nupkg.sha512",
+        "elfinder.netcore.nuspec",
+        "lib/net8.0/elFinder.NetCore.dll"
       ]
     },
     "EntityFramework/6.4.4": {
@@ -8125,6 +8169,22 @@
         "version.txt"
       ]
     },
+    "SixLabors.ImageSharp/3.1.2": {
+      "sha512": "PYdR6GUI+gW6LBaAQKTik0Ai8oLpFAz3a/KrVusxoTg3kf7F3cuIqKMhJGsuQcmDHCF+iD81Pyn4cexyHrb1ZA==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.2.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -9796,10 +9856,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.0": {
-      "sha512": "OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
+    "System.Text.Json/8.0.1": {
+      "sha512": "7AWk2za1hSEJBppe/Lg+uDcam2TrDqwIKa9XcPssSwyjC2xa39EKEGul3CO5RWNF+hMuZG4zlBDrvhBdDTg4lg==",
       "type": "package",
-      "path": "system.text.json/8.0.0",
+      "path": "system.text.json/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9864,7 +9924,7 @@
         "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.0.nupkg.sha512",
+        "system.text.json.8.0.1.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -10085,7 +10145,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
-      "MySql.Data.EntityFramework >= 8.3.0"
+      "MySql.Data.EntityFramework >= 8.3.0",
+      "elFinder.NetCore >= 1.4.0"
     ]
   },
   "packageFolders": {
@@ -10094,11 +10155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\Du_An\\App\\App\\App.csproj",
+      "projectUniqueName": "E:\\Project\\Du_An\\App\\app\\App.csproj",
       "projectName": "App",
-      "projectPath": "E:\\Project\\Du_An\\App\\App\\App.csproj",
+      "projectPath": "E:\\Project\\Du_An\\App\\app\\App.csproj",
       "packagesPath": "C:\\Users\\vuong\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\Du_An\\App\\App\\obj\\",
+      "outputPath": "E:\\Project\\Du_An\\App\\app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10175,6 +10236,10 @@
           "MySql.Data.EntityFramework": {
             "target": "Package",
             "version": "[8.3.0, )"
+          },
+          "elFinder.NetCore": {
+            "target": "Package",
+            "version": "[1.4.0, )"
           }
         },
         "imports": [

@@ -283,6 +283,37 @@
                 <partial name="_Summenote" model="summenote" />
         B3: Xong rồi
 
+   # Thư viện Enfijder upload file ảnh lên app
+        B1: Thêm tại file libman.json
+            ,
+            {
+              "library": "jqueryui@1.13.2",
+              "destination": "wwwroot/lib/jqueryui"
+            },
+            {
+              "library": "elfinder@2.1.65",
+              "destination": "wwwroot/lib/elfinder"
+            }
+
+            --> libman restore
+        B2: dotnet add package elFinder.NetCore
+        B3: Tạo 1 thư muc trong area Files
+        B4: Tạo một file trong app : Uploads
+        B5: Tại Program.cs
+                app.UseStaticFiles(new StaticFileOptions()
+                {
+                    FileProvider = new PhysicalFileProvider(
+                        Path.Combine(Directory.GetCurrentDirectory(), "Uploads")
+                        ),
+                    RequestPath = "/contents"
+                });
+                app.UseStaticFiles(new StaticFileOptions()
+                {
+                    FileProvider = new PhysicalFileProvider(
+                        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")
+                        ),
+                });
+
 
 
 
