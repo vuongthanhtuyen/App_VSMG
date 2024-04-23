@@ -128,3 +128,9 @@ app.Run();
         -----
         --> delete all photo not need
      */
+// Trang ViewPost
+    /*
+        - Trang View Index 23/4/2024 - Done
+        - Trang detail: mới truy cập link liên kết, chưa hiển thị nội dung
+        
+     */

@@ -1,6 +1,8 @@
 ﻿using App.Models;
+using App.Models.Blog;
 using Microsoft.AspNetCore.Mvc;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace App.Areas.Blog.Controllers
 {
@@ -24,5 +26,15 @@ namespace App.Areas.Blog.Controllers
                 .ToList(); 
             return View(posts) ;
         }
+
+        [Route("/post/{postslug}/")]
+        [HttpGet]
+        public IActionResult Details(string postslug)
+        {
+            return View();
+        }
+
+
+
     }
 }

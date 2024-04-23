@@ -9,6 +9,7 @@ using App.Models;
 using App.Models.Blog;
 using Microsoft.AspNetCore.Authorization;
 using App.Data;
+using App.Utilities;
 
 namespace App.Areas.Blog.Controllers
 {
@@ -104,6 +105,17 @@ namespace App.Areas.Blog.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Title,Description,Slug,ParentCategoryId")] Category category)
         {
+
+            if (category.Slug == null)
+            {
+                category.Slug = AppUtilities.GenerateSlug(category.Title);
+            }
+            if (await _context.Categories.AnyAsync(p => p.Slug == category.Slug))
+            {
+                ModelState.AddModelError("Slug", "Chuỗi url này đã tồn tại, vui lòng nhập lại chuỗi url khác");
+                return View(category);
+            }
+
             if (ModelState.IsValid)
             {
                 if (category.ParentCategoryId == -1) category.ParentCategoryId = null;
