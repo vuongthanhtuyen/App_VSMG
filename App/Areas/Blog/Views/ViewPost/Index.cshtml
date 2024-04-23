@@ -7,46 +7,25 @@
 @{
     ViewData["Title"] = "Các bài viết của Win Win";
 }
+
+
+
 <h1>@ViewData["Title"]</h1>
 <h2>This return from Index ViewPost</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>STT</th>
-            <th>@Html.DisplayNameFor(model => model.Title)</th>
-            <th>@Html.DisplayNameFor(model => model.Published)</th>
-            <th>@Html.DisplayNameFor(model => model.Author)</th>
-            <th>@Html.DisplayNameFor(model => model.DateUpdated)</th>
-            <th></th>
-        </tr>
-
-
-    </thead>
-
-    <tbody>
+        <div class="row">
         @foreach (var item in Model)
         {
-            <tr>
-                <th></th>
-                <th>
-                    <a asp-action="Edit" asp-controller="Post" asp-route-id="@item.PostId">@Html.DisplayFor(model => item.Title)</a>
-                    <br />
-                </th>
-                <th>@Html.DisplayFor(model => item.Published)</th>
-                <th>
-                    @Html.DisplayFor(model => item.Author.UserName)
-                </th>
-                <th>@Html.DisplayFor(model => item.DateUpdated)</th>
-                <th>
+            <div class="card" style="width: 18rem;">
+                <img src="/contents/Post_Thumbnail/@item.Thumbnail" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Title</h5>
+                </div>
+            </div>
 
-                </th>
-            </tr>
 
         }
+        </div>
 
-    </tbody>
-
-</table>
 
 <h1> New rồi</h1>
 <ytd-rich-grid-row class="style-scope ytd-rich-grid-renderer">

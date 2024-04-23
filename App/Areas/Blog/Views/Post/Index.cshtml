@@ -37,7 +37,7 @@
             <tr>
                 <th>@(++ViewBag.postIndex)</th>
                 <th>
-                    <a asp-action="Edit" asp-controller="Post" asp-route-id="@item.PostId">@Html.DisplayFor(model => item.Title)</a>
+                    <a asp-action="Details" asp-controller="Post" asp-route-id="@item.PostId">@Html.DisplayFor(model => item.Title)</a>
                     <br />
                     <small >
                         @string.Join(", ", item.PostCategories.Select(pc => pc.Category.Title))
@@ -50,7 +50,7 @@
                 </th>
                 <th>@Html.DisplayFor(model => item.DateUpdated)</th>
                 <th>
-                    <a class="btn btn-link" asp-action="Details" asp-controller="Post" asp-route-id="@item.PostId">Chi tiết</a> |
+                    <a class="btn btn-link" asp-action="Edit" asp-controller="Post" asp-route-id="@item.PostId">Sửa</a> |
                     <a class="btn btn-link" data-toggle="modal" data-target="#@vitem"> Xóa</a>
                     <div class="modal fade" id="@vitem" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -83,6 +83,8 @@
     </tbody>
 
 </table>
+
+
 
 
 @* Thêm thanh phân trang *@

@@ -15,6 +15,10 @@ using App.Utilities;
 using App.Areas.Blog.Models;
 using System.Collections.Specialized;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
+using Org.BouncyCastle.Security;
+using App.Migrations;
+
 
 namespace AppMvc.Areas.Blog.Controllers
 {
@@ -107,24 +111,44 @@ namespace AppMvc.Areas.Blog.Controllers
                 ModelState.AddModelError("Slug", "Chuỗi url này đã tồn tại, vui lòng nhập lại chuỗi url khác");
                 return View(post);
             }
-            if(post.FileUpload != null)
+            if (post.FileUpload == null)
             {
-                var file1 = Path.GetFileNameWithoutExtension(Path.GetRandomFileName())
-                    + Path.GetExtension(post.FileUpload.FileName);
-
-                var file = Path.Combine("Uploads", "Post_Thumbnail", file1);
-
-                using (var filestream = new FileStream(file, FileMode.Create))
-                {
-                    await post.FileUpload.CopyToAsync(filestream);
-                }
-                post.Thumbnail = file1;
-
+                ModelState.AddModelError("FileUpload", "Ảnh thumbnail không được để trống");
+                return View(post);
             }
-            ModelState.Remove("FileUpload");
+            else
+            {
+                var path = Path.Combine("Uploads", "Post_Thumbnail");
+
+                //var path = "~/Uploads/Post_Thumbnail/";
+                foreach (var filename in Directory.GetFiles(path)){
+                    
+                    if (Path.Combine("Uploads", "Post_Thumbnail", post.FileUpload.FileName )== filename)
+                    {
+                        
+                        ModelState.AddModelError("FileUpload", "Tên ảnh bị trùng, vui lòng đổi tên khác");
+                        return View(post);
+
+                    }
+
+                }
+            }
+            
+    
+            //ModelState.Remove("FileUpload");
 
             if (ModelState.IsValid) 
             {
+                // Thêm ảnh vào folder
+                var file = Path.Combine("Uploads", "Post_Thumbnail", post.FileUpload.FileName);
+                using (var filestream = new FileStream(file, FileMode.Create))
+                {
+                    await post.FileUpload.CopyToAsync(filestream);// coppy dữ liệu của fileUploads qua filestream
+                }
+                post.Thumbnail = post.FileUpload.FileName;
+
+
+
                 var user = await _userManager.GetUserAsync(this.User);
                 post.DateCreated = post.DateUpdated = DateTime.Now;
                 post.AuthorId = user.Id;
@@ -211,6 +235,8 @@ namespace AppMvc.Areas.Blog.Controllers
 
             }
 
+
+
             var postEdit = new CreatePostModel()
             {
                 PostId = post.PostId,
@@ -219,7 +245,8 @@ namespace AppMvc.Areas.Blog.Controllers
                 Description = post.Description,
                 Slug = post.Slug,
                 Published = post.Published,
-                CategoryIDs = post.PostCategories.Select(pc => pc.CategoryID).ToArray()
+                CategoryIDs = post.PostCategories.Select(pc => pc.CategoryID).ToArray(),
+                Thumbnail = post.Thumbnail
             };
             var categories = await _context.Categories.ToListAsync();
 
@@ -229,7 +256,7 @@ namespace AppMvc.Areas.Blog.Controllers
             return View(postEdit);
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, [Bind("PostId,Title,Content,Description,Slug,Published,CategoryIDs")] CreatePostModel post)
+        public async Task<IActionResult> Edit(int id, [Bind("PostId,Title,Content,Description,Slug,Published,CategoryIDs,FileUpload")] CreatePostModel post)
         {
             if (id != post.PostId)
             {
@@ -245,19 +272,63 @@ namespace AppMvc.Areas.Blog.Controllers
 
             var posts = await _context.Posts.FindAsync(post.PostId);
 
+            if (post.FileUpload != null)
+            {
+
+                var path = Path.Combine("Uploads", "Post_Thumbnail");
+                foreach (var filename in Directory.GetFiles(path))
+                {
+                    if (Path.Combine("Uploads", "Post_Thumbnail", post.FileUpload.FileName) == filename)
+                    {
+                        ModelState.AddModelError("FileUpload", "Tên ảnh bị trùng, vui lòng đổi tên khác");
+                        StatusMessage = "Cập nhập hình không thành công";
+                        return View(post);
+
+                    }
+
+                }
+
+            }
             if (ModelState.IsValid)
             {
                 try
                 {
+                    var file1 = Path.Combine("Uploads", "Post_Thumbnail", post.FileUpload.FileName);
+
+                    using (var filestream = new FileStream(file1, FileMode.Create))
+                    {
+                        await post.FileUpload.CopyToAsync(filestream);
+                    }
+
+
                     var postUpdate = await _context.Posts.Include(p => p.PostCategories)
                         .FirstOrDefaultAsync(p => p.PostId == id);
                     if (postUpdate == null) { return NotFound(); }
+
+                    //Xóa tên file trong thư mục
+                    if(postUpdate.Thumbnail != null)
+                    {
+                        string filePathToDelete = Path.Combine("Uploads", "Post_Thumbnail", postUpdate.Thumbnail);
+                        if (System.IO.File.Exists(filePathToDelete))
+                        {
+                            System.IO.File.Delete(filePathToDelete);
+                            Console.WriteLine("Đã xóa tệp thành công.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Tệp không tồn tại.");
+                        }
+
+                    }
+                    // update
                     postUpdate.Title = post.Title;
                     postUpdate.Slug = post.Slug;
                     postUpdate.Description = post.Description;
                     postUpdate.Content = post.Content;
                     postUpdate.DateUpdated = DateTime.Now;
                     postUpdate.Published = post.Published;
+                    postUpdate.Thumbnail = post.FileUpload.FileName;
+
 
 
                     // Update PostCategory
@@ -273,6 +344,7 @@ namespace AppMvc.Areas.Blog.Controllers
                     var addCateIds = from CateId in newCateIds
                                      where !oldCateIds.Contains(CateId)
                                      select CateId;
+
                     foreach(var cateId in addCateIds)
                     {
                         _context.PostCategoties.Add(new PostCategory()
@@ -304,6 +376,7 @@ namespace AppMvc.Areas.Blog.Controllers
             //await _context.Update(post);
 
 
+            //StatusMessage = "Không hiểu lỗi gì";
 
             return RedirectToAction(nameof(Index));
         }
@@ -313,7 +386,55 @@ namespace AppMvc.Areas.Blog.Controllers
         }
 
 
-    }
+
+        //// Cái này làm ra để xóa hình trong file bị thừa do đợt đầu thêm nhiều quá, không khớp với database + Thêm ảnh cho những thằng post chưa có hình
+        //[HttpPost]
+        //public async Task<IActionResult> deletePicture()
+        //{
+        //    var posts = _context.Posts.ToList();
+        //    var path = Path.Combine("Uploads", "Post_Thumbnail");
+        //    foreach (var filename in Directory.GetFiles(path))
+        //    {
+        //        bool check = false;
+        //        foreach (var post in posts)
+        //        {
+        //            //if(post.Thumbnail == null)
+        //            //{
+        //            //        post.Thumbnail = "0419-Cover.jpg";
+        //            //        _context.Update(post);
+        //            //        await _context.SaveChangesAsync();
+
+        //            //}
+        //            if (Path.Combine("Uploads", "Post_Thumbnail", post.Thumbnail) == filename)
+        //            {
+        //                check = true;
+        //                break;
+        //            }
+        //        }
+        //        if(check == false)
+        //        {
+        //            System.IO.File.Delete(filename);
+        //            Console.WriteLine("Đã xóa tệp không tồn tại thành công.");
+        //        }                   
+        //    }
+
+        //    StatusMessage = " Đã xóa hình không liên quan";
+        //    return RedirectToAction(nameof(Index));
+
+
+
+        //    // Code thực hiện action trên: lưu ý là phải cùng area và controller nhennn
+        //    //< form asp - action = "deletePicture" >
+        //    //    < div class="col">
+        //    //        <input type = "submit" value="   OK   " class="btn btn-primary" />
+        //    //    </div>
+        //    //</form>
+
+
+        //}
+
+
+}
 }
 
 
