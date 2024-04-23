@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Identity;
 using App.Utilities;
 using App.Areas.Blog.Models;
 using System.Collections.Specialized;
+using System.ComponentModel.DataAnnotations;
 
 namespace AppMvc.Areas.Blog.Controllers
 {
@@ -92,7 +93,7 @@ namespace AppMvc.Areas.Blog.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Title,Description,Slug,Content,Published,CategoryIDs")] CreatePostModel post)
+        public async Task<IActionResult> Create([Bind("Title,Description,Slug,Content,Published,CategoryIDs,FileUpload")] CreatePostModel post)
         {
             var categories = await _context.Categories.ToListAsync();
 
@@ -106,8 +107,23 @@ namespace AppMvc.Areas.Blog.Controllers
                 ModelState.AddModelError("Slug", "Chuỗi url này đã tồn tại, vui lòng nhập lại chuỗi url khác");
                 return View(post);
             }
+            if(post.FileUpload != null)
+            {
+                var file1 = Path.GetFileNameWithoutExtension(Path.GetRandomFileName())
+                    + Path.GetExtension(post.FileUpload.FileName);
 
-            if (ModelState.IsValid)
+                var file = Path.Combine("Uploads", "Post_Thumbnail", file1);
+
+                using (var filestream = new FileStream(file, FileMode.Create))
+                {
+                    await post.FileUpload.CopyToAsync(filestream);
+                }
+                post.Thumbnail = file1;
+
+            }
+            ModelState.Remove("FileUpload");
+
+            if (ModelState.IsValid) 
             {
                 var user = await _userManager.GetUserAsync(this.User);
                 post.DateCreated = post.DateUpdated = DateTime.Now;

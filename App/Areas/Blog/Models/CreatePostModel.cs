@@ -7,5 +7,13 @@ namespace App.Areas.Blog.Models
     {
         [Display(Name = "Chuyên mục")]
         public int[] CategoryIDs { get; set; }
+
+
+        [Required(ErrorMessage = "Phải chọn file upload")]
+        [DataType(DataType.Upload)]
+        [FileExtensions(Extensions = "png,jpg,jpeg,gif")]
+        [Display(Name = "Chọn file upload")]
+        public IFormFile? FileUpload { get; set; }
+
     }
 }

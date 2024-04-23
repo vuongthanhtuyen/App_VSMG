@@ -119,4 +119,11 @@ app.Run();
 // Details Done
 // Tích họp Summernote - Done
 // Quản lý thư mục, ảnh... 21/4/2024 - Done
-// 
+// Thêm Thumbnail trong post 22/4/2024 -
+    /*
+        Create - Done
+        Detail - Done
+        Edit - No
+        -----
+     
+     */

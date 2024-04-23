@@ -46,5 +46,9 @@ namespace App.Models.Blog
 
         [Display(Name = "Ngày cập nhật")]
         public DateTime DateUpdated { set; get; }
+
+        [Display(Name = "Thumbnail")]
+        public string? Thumbnail { get; set; }
+
     }
 }
