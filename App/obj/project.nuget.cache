@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nI2PVy7OdV+wxcOjNSCQZP8/smLCDg0kkoSZbvL74YYU+l1j+78Dpyj9urEigl6y3oEkQYa7kqz+xvqjdMNJJg==",
+  "dgSpecHash": "ExPrDx/QNhHmfm76Aw/rl693g/OCCmI+7r/8KspwnJLv+BwKRgIq48ZV6Hq/pjmBH9aSkalaIjkZEsqpfroIsA==",
   "success": true,
   "projectFilePath": "E:\\Project\\Du_An\\App\\app\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vuong\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\vuong\\.nuget\\packages\\bogus\\35.5.0\\bogus.35.5.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\elfinder.netcore\\1.4.0\\elfinder.netcore.1.4.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

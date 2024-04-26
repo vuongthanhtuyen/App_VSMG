@@ -18,6 +18,7 @@ using System.ComponentModel.DataAnnotations;
 using System.IO;
 using Org.BouncyCastle.Security;
 using App.Migrations;
+using Microsoft.CodeAnalysis.Differencing;
 
 
 namespace AppMvc.Areas.Blog.Controllers
@@ -293,20 +294,13 @@ namespace AppMvc.Areas.Blog.Controllers
             {
                 try
                 {
-                    var file1 = Path.Combine("Uploads", "Post_Thumbnail", post.FileUpload.FileName);
-
-                    using (var filestream = new FileStream(file1, FileMode.Create))
-                    {
-                        await post.FileUpload.CopyToAsync(filestream);
-                    }
-
-
+                    
                     var postUpdate = await _context.Posts.Include(p => p.PostCategories)
                         .FirstOrDefaultAsync(p => p.PostId == id);
                     if (postUpdate == null) { return NotFound(); }
 
                     //Xóa tên file trong thư mục
-                    if(postUpdate.Thumbnail != null)
+                    if (post.FileUpload != null)
                     {
                         string filePathToDelete = Path.Combine("Uploads", "Post_Thumbnail", postUpdate.Thumbnail);
                         if (System.IO.File.Exists(filePathToDelete))
@@ -319,7 +313,20 @@ namespace AppMvc.Areas.Blog.Controllers
                             Console.WriteLine("Tệp không tồn tại.");
                         }
 
+                        var file1 = Path.Combine("Uploads", "Post_Thumbnail", post.FileUpload.FileName);
+                        using (var filestream = new FileStream(file1, FileMode.Create))
+                        {
+                            await post.FileUpload.CopyToAsync(filestream);
+                        }
+                        postUpdate.Thumbnail = post.FileUpload.FileName;
+
+                        
+
+
+
                     }
+
+
                     // update
                     postUpdate.Title = post.Title;
                     postUpdate.Slug = post.Slug;
@@ -327,7 +334,6 @@ namespace AppMvc.Areas.Blog.Controllers
                     postUpdate.Content = post.Content;
                     postUpdate.DateUpdated = DateTime.Now;
                     postUpdate.Published = post.Published;
-                    postUpdate.Thumbnail = post.FileUpload.FileName;
 
 
 

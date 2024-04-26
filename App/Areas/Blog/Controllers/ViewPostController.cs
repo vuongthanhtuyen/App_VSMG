@@ -19,19 +19,35 @@ namespace App.Areas.Blog.Controllers
         [Route("/post/{categoryslug?}")]
         public async Task<IActionResult> Index()
         {
-
             var posts = _context.Posts
-                .AsQueryable() // Chuyển đổi dữ liệu từ tập hợp Posts thành một đối tượng IQueryable
+                .Include(p => p.Author)
+                .OrderByDescending(p => p.DateUpdated);
 
-                .ToList(); 
+
+            //var posts = _context.Posts
+            //    .AsQueryable()// Chuyển đổi dữ liệu từ tập hợp Posts thành một đối tượng IQueryable
+            //    .OrderByDescending(p => p.DateUpdated)
+            //    .ToList(); 
             return View(posts) ;
         }
 
-        [Route("/post/{postslug}/")]
+        [Route("/{postslug}/")]
         [HttpGet]
-        public IActionResult Details(string postslug)
+        public IActionResult Details(string? postslug)
         {
-            return View();
+            if (postslug == null)
+            {
+                return NotFound();
+            }
+            var posts = _context.Posts
+                .Include(p=> p.Author)
+                .FirstOrDefault(p=> p.Slug == postslug);
+            if(posts == null)
+            {
+                return NotFound();
+            }
+
+            return View(posts);
         }
 
 

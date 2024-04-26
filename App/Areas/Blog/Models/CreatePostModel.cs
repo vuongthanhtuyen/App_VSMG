@@ -9,7 +9,6 @@ namespace App.Areas.Blog.Models
         public int[] CategoryIDs { get; set; }
 
 
-        [Required(ErrorMessage = "Phải chọn file upload")]
         [DataType(DataType.Upload)]
         [Display(Name = "Chọn file upload")]
         public IFormFile? FileUpload { get; set; }
