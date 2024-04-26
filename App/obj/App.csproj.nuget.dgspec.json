@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\Du_An\\App\\App\\App.csproj": {}
+    "E:\\Project\\Du_An\\App\\app\\App.csproj": {}
   },
   "projects": {
-    "E:\\Project\\Du_An\\App\\App\\App.csproj": {
+    "E:\\Project\\Du_An\\App\\app\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\Du_An\\App\\App\\App.csproj",
+        "projectUniqueName": "E:\\Project\\Du_An\\App\\app\\App.csproj",
         "projectName": "App",
-        "projectPath": "E:\\Project\\Du_An\\App\\App\\App.csproj",
+        "projectPath": "E:\\Project\\Du_An\\App\\app\\App.csproj",
         "packagesPath": "C:\\Users\\vuong\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\Du_An\\App\\App\\obj\\",
+        "outputPath": "E:\\Project\\Du_An\\App\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,30 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.5.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -55,6 +79,12 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -62,6 +92,10 @@
             "MySql.Data.EntityFramework": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "elFinder.NetCore": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             }
           },
           "imports": [

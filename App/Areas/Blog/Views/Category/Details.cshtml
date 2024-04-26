@@ -1,0 +1,31 @@
+﻿@model App.Models.Blog.Category
+
+@{
+    ViewData["Title"] = "Chi tiết chuyên mục";
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Title):</strong>
+    @Html.DisplayFor(modelItem => Model.Title)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Slug):</strong>
+    @Html.DisplayFor(modelItem => Model.Slug)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Description):</strong>
+    @Html.Raw(@Model.Description))
+</p>
+
+
+
+<div>
+    <a class="btn btn-info" asp-action="Index">Thoát</a>
+</div>
+

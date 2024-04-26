@@ -8,10 +8,15 @@ using Microsoft.EntityFrameworkCore;
 using App.Models;
 using ContactModel = App.Models.Contacts.Contact;
 using Microsoft.AspNetCore.Authorization;
+using App.Data;
+
 
 namespace App.Areas.Contact.Controllers
 {
+    [Authorize(Roles = RoleName.Administrator)]
     [Area("Contact")]
+    [Route("/Contact/[action]")]
+
     public class ContactController : Controller
     {
         private readonly AppDbContext _context;
@@ -34,14 +39,16 @@ namespace App.Areas.Contact.Controllers
 
 
 		[HttpGet("/contact/")]
-		public IActionResult SendContact()
+        [AllowAnonymous]
+        public IActionResult SendContact()
 		{
 
 			return View();
 		}
 
 		[HttpPost("/contact")]
-		public async Task<IActionResult> SendContact([Bind("Message, FullName, Address, Phone")] ContactModel contact)
+        [AllowAnonymous]
+        public async Task<IActionResult> SendContact([Bind("Message, FullName, Address, Phone")] ContactModel contact)
 		{
 			if (ModelState.IsValid)
 			{
@@ -74,26 +81,6 @@ namespace App.Areas.Contact.Controllers
 
 
 
-
-        [HttpGet("/admin/contact/delete/{id}")]
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var contact = await _context.Contacts
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (contact == null)
-            {
-                return NotFound();
-            }
-
-            return View(contact);
-        }
-
-
         [HttpPost("/admin/contact/delete/{id}"), ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -112,6 +99,7 @@ namespace App.Areas.Contact.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        
 
 
 

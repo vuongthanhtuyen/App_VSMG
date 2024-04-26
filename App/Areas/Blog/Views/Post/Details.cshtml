@@ -1,0 +1,58 @@
+﻿@model App.Models.Blog.Post
+
+@{
+    ViewData["Title"] = "Chi tiết chuyên mục";
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Thumbnail):</strong>
+    <div class="photodetail w-50 p-1">
+        <img class="w-100" src="/contents/Post_Thumbnail/@Model.Thumbnail" />
+    </div>
+
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Title):</strong>
+    @Html.DisplayFor(modelItem => Model.Title)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Slug):</strong>
+    @Html.DisplayFor(modelItem => Model.Slug)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Description):</strong>
+    @Html.DisplayFor(modelItem => Model.Description)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Content):</strong>
+    @Html.Raw(@Model.Content)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.DateCreated):</strong>
+    @Html.DisplayFor(modelItem => Model.DateCreated)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.DateUpdated):</strong>
+    @Html.DisplayFor(modelItem => Model.DateUpdated)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Author):</strong>
+    @Html.DisplayFor(modelItem => Model.Author.UserName)
+</p>
+<p>
+    <strong>@Html.DisplayNameFor(model => model.Published):</strong>
+    @Html.DisplayFor(model => model.Published)
+</p>
+
+
+
+<div>
+    <a class="btn btn-info" asp-action="Index">Thoát</a>
+</div>
+
