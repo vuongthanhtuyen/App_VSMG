@@ -140,7 +140,7 @@ namespace App.Areas.Database.Controllers
             List<PostCategory> post_categories = new List<PostCategory>();
 
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 40; i++)
             {
                 var post = fakerPost.Generate();
                 post.DateUpdated = post.DateCreated;
@@ -164,6 +164,7 @@ namespace App.Areas.Database.Controllers
         {
             _dbContext.Categories.RemoveRange(_dbContext.Categories.Where(c => c.Description.Contains("[fakeData]")));
             _dbContext.Posts.RemoveRange(_dbContext.Posts.Where(p => p.Content.Contains("[fakeData]")));
+            _dbContext.SaveChanges();
             StatusMessage = "Bạn vừa Xóa fakedata";
             return RedirectToAction("Index");
 

@@ -9,137 +9,29 @@
 }
 
 
-<style>
 
-</style>
 
-<div class="wrapper">
-    <header class="header">Pinterest</header>
 
-    <article class="content">
+<h1>@ViewData["Title"]</h1>
 
+    <div class="card-columns">
+        @{
+            var count = Model.Count();
+
+        }
         @foreach (var item in Model)
         {
-            <div class="panel tall-panel">
+            <div class="card" >
                 <a asp-area="Blog" asp-controller="ViewPost" asp-action="Details" asp-route-postslug="@item.Slug" class="text-decoration-none">
-                    <img class="panel-img" src="/contents/Post_Thumbnail/@item.Thumbnail" alt="Card image cap">
+                    <img class="card-img-top" src="/contents/Post_Thumbnail/@item.Thumbnail" alt="Card image cap">
                     <div class="card-body">
                         <h6 class="card-title">@item.Title</h6>
                     </div>
                 </a>
-
             </div>
 
-
         }
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel tall-panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/65/cd/8f/65cd8fc3a0b31bdc5c48b9ce09224d22.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel tall-panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/bf/24/7b/bf247b7bdf016e38a0a507de0f5fabf9.jpg" />
-        </div>
-
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-        <div class="panel">
-            <img class="panel-img" src="https://i.pinimg.com/564x/fd/9a/1e/fd9a1e674ef0690532d77e9842e5ec09.jpg" />
-        </div>
-
-    </article>
-
-</div>
-
-
-
-@* <h1>@ViewData["Title"]</h1>
-<div class="container">
-    <div class="container">
-        <div class="card-columns">
-            @foreach (var item in Model)
-            {
-                <div class="card" >
-                    <a asp-area="Blog" asp-controller="ViewPost" asp-action="Details" asp-route-postslug="@item.Slug" class="text-decoration-none">
-                        <img class="card-img-top" src="/contents/Post_Thumbnail/@item.Thumbnail" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">@item.Title</h6>
-                        </div>
-                    </a>
-                </div>
-
-            }
-        </div>
-
     </div>
-</div>
- *@
+
+
+   

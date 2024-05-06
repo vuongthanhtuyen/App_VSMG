@@ -218,7 +218,7 @@ img,
     column-count: 2;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .card-columns {
     column-count: 3;
   }
@@ -257,7 +257,6 @@ img,
 }
 
 body {
-  font-family: Courier, "sans-serif";
   background-color: #fff;
   color: #242424;
 }
