@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "E:\\Project\\Du_An\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\views\\shared\\components\\categorysidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\components\\categorysidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\assets\\scss\\_viewpost.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\assets\\scss\\_viewpost.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\database\\controllers\\dbmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\database\\controllers\\dbmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\_layoutblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\_layoutblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\controllers\\viewpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\controllers\\viewpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\assets\\scss\\site.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\assets\\scss\\site.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\views\\shared\\components\\categorysidebar\\categorysidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\components\\categorysidebar\\categorysidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,28 +42,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Program.cs",
-              "RelativeDocumentMoniker": "App\\Program.cs",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Program.cs",
-              "RelativeToolTip": "App\\Program.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T03:28:47.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
               "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
               "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
               "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAABEAAAAdAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T02:33:35.223Z"
+              "WhenOpened": "2024-05-07T07:58:59.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,118 +61,62 @@
               "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\Index.cshtml",
               "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\Index.cshtml",
               "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-26T01:37:51.122Z",
+              "WhenOpened": "2024-05-07T07:49:29.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_viewpost.scss",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\assets\\scss\\_viewpost.scss",
-              "RelativeDocumentMoniker": "App\\assets\\scss\\_viewpost.scss",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\assets\\scss\\_viewpost.scss",
-              "RelativeToolTip": "App\\assets\\scss\\_viewpost.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-04-26T01:38:42.461Z"
+              "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
+              "RelativeToolTip": "App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T07:52:19.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T07:58:55.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DbManagerController.cs",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Database\\Controllers\\DbManagerController.cs",
-              "RelativeDocumentMoniker": "App\\Areas\\Database\\Controllers\\DbManagerController.cs",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Database\\Controllers\\DbManagerController.cs",
-              "RelativeToolTip": "App\\Areas\\Database\\Controllers\\DbManagerController.cs",
-              "ViewState": "AQIAAIUAAAAAAAAAAADwv44AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T02:25:50.357Z"
+              "Title": "_LayoutBlog.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T07:58:53.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\appsettings.json",
-              "RelativeDocumentMoniker": "App\\appsettings.json",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\appsettings.json",
-              "RelativeToolTip": "App\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-26T04:33:31.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewPostController.cs",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Controllers\\ViewPostController.cs",
-              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Controllers\\ViewPostController.cs",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Controllers\\ViewPostController.cs",
-              "RelativeToolTip": "App\\Areas\\Blog\\Controllers\\ViewPostController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAoAAAA",
+              "Title": "CategorySidebar.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
+              "RelativeToolTip": "App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T01:44:22.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "package.json",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\package.json",
-              "RelativeDocumentMoniker": "App\\package.json",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\package.json",
-              "RelativeToolTip": "App\\package.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-26T04:33:25.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "libman.json",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\libman.json",
-              "RelativeDocumentMoniker": "App\\libman.json",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\libman.json",
-              "RelativeToolTip": "App\\libman.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-26T04:33:28.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Controllers\\PostController.cs",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Controllers\\PostController.cs",
-              "RelativeToolTip": "App\\Areas\\Blog\\Controllers\\PostController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T01:45:07.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
-              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-26T01:45:01.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "site.scss",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\assets\\scss\\site.scss",
-              "RelativeDocumentMoniker": "App\\assets\\scss\\site.scss",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\assets\\scss\\site.scss",
-              "RelativeToolTip": "App\\assets\\scss\\site.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-04-26T01:38:40.451Z"
+              "WhenOpened": "2024-05-07T07:58:20.916Z",
+              "EditorCaption": ""
             }
           ]
         }

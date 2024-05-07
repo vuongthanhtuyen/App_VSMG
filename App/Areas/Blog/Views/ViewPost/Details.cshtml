@@ -1,6 +1,15 @@
 ﻿@model App.Models.Blog.Post //  model để lấy  ra 1 đối tượng được truyền từ controller
+@using App.Components
+@using App.Models.Blog
+
+
+
 @{
-    ViewData["Title"] = "Chi tiết bài viết từ View Post";
+    List<Category> categories = ViewBag.categories as List<Category>;
+    Category category = ViewBag.category as Category;
+    ViewData["Title"] = Model.Title;
+
+    IQueryable<Post> otherPosts = ViewBag.otherPosts as IQueryable<Post>;
 }
 
 
@@ -114,3 +123,25 @@
         </div>
     </div>
     <!-- Footer-->
+@section Sidebar {
+@*     @await Component.InvokeAsync("App.Components.CategorySidebar",
+                new CategorySidebar.CategorySidbarData()
+        {
+            Categories = categories,
+            level = 0,
+            categoryslug = category.Slug
+        })
+ *@
+ <h4>Bài viết liên quan khác</h4>
+    <ul class="list-group">
+        @foreach (var post in otherPosts)
+        {
+            <li class="list-group-item">
+                <a style="text-decoration:none" class="note-icon-underline" asp-controller="ViewPost" asp-action="Details" asp-route-postslug="@post.Slug">
+                    @post.Title
+                </a>
+            </li>
+        }
+    </ul>
+    <br />
+}

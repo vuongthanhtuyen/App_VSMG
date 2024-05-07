@@ -131,6 +131,7 @@ app.Run();
 // Trang ViewPost
     /*
         - Trang View Index 23/4/2024 - Done
-        - Trang detail: mới truy cập link liên kết, chưa hiển thị nội dung
+        - Trang detail: mới truy cập link liên kết, chưa hiển thị nội dung - Done All
+        - Hiển thị catolog 6/5/2024 
         
      */
