@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "E:\\Project\\Du_An\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\views\\shared\\components\\categorysidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\components\\categorysidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\blog\\views\\viewpost\\_layoutblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\viewpost\\_layoutblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\views\\shared\\components\\categorysidebar\\categorysidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\components\\categorysidebar\\categorysidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
-              "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\Details.cshtml",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIsAAAATAAAA",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:58:59.568Z",
+              "WhenOpened": "2024-05-13T02:52:12.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\Index.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\Index.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\Index.cshtml",
-              "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:49:29.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
-              "RelativeDocumentMoniker": "App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
-              "RelativeToolTip": "App\\Views\\Shared\\Components\\CategorySidebar\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:52:19.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
-              "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:58:55.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_LayoutBlog.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
-              "RelativeToolTip": "App\\Areas\\Blog\\Views\\ViewPost\\_LayoutBlog.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:58:53.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategorySidebar.cs",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
-              "RelativeDocumentMoniker": "App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
-              "RelativeToolTip": "App\\Views\\Shared\\Components\\CategorySidebar\\CategorySidebar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Program.cs",
+              "RelativeDocumentMoniker": "App\\Program.cs",
+              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Program.cs",
+              "RelativeToolTip": "App\\Program.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T07:58:20.916Z",
+              "WhenOpened": "2024-05-13T02:39:11.157Z",
               "EditorCaption": ""
             }
           ]

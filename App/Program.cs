@@ -23,6 +23,15 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionstring);
 });
 
+// đăng ký cho dịch vụ giỏ hàng
+builder.Services.AddTransient<CartService>();
+builder.Services.AddDistributedMemoryCache();           // Đăng ký dịch vụ lưu cache trong bộ nhớ (Session sẽ sử dụng nó)
+builder.Services.AddSession(cfg => {                    // Đăng ký dịch vụ Session
+    cfg.Cookie.Name = "appmvc";             // Đặt tên Session - tên này sử dụng ở Browser (Cookie)
+    cfg.IdleTimeout = new TimeSpan(0, 30, 0);    // Thời gian tồn tại của Session
+});
+
+
 
 // Đăng ký Identity: đăng nhập, quản lý user
 builder.Services.AddIdentity<AppUser, IdentityRole>()
@@ -100,6 +109,7 @@ app.UseStaticFiles(new StaticFileOptions()
         ),
 });
 
+app.UseSession();
 
 app.UseRouting();
 

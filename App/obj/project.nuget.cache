@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ExPrDx/QNhHmfm76Aw/rl693g/OCCmI+7r/8KspwnJLv+BwKRgIq48ZV6Hq/pjmBH9aSkalaIjkZEsqpfroIsA==",
+  "dgSpecHash": "4fbVGzqzhZRaIqF5QA24TPJiv4+/kpMfDKp7XiOGmPBQZRxqpb4EyHcolCklY2SZbDv/QEs0rHY5j3AnkpLLTA==",
   "success": true,
   "projectFilePath": "E:\\Project\\Du_An\\App\\app\\App.csproj",
   "expectedPackageFiles": [
@@ -82,6 +82,7 @@
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.3.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\microsoft.aspnetcore.identity.ui.8.0.3.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
+    "C:\\Users\\vuong\\.nuget\\packages\\microsoft.aspnetcore.session\\2.2.0\\microsoft.aspnetcore.session.2.2.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\vuong\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
