@@ -1,8 +1,11 @@
 ﻿using App.Data;
 using App.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using App.Areas.Database.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +34,7 @@ builder.Services.AddSession(cfg => {                    // Đăng ký dịch v�
     cfg.IdleTimeout = new TimeSpan(0, 30, 0);    // Thời gian tồn tại của Session
 });
 
-
+//builder.Services.AddHttpContextAccessor();
 
 // Đăng ký Identity: đăng nhập, quản lý user
 builder.Services.AddIdentity<AppUser, IdentityRole>()
@@ -60,7 +63,7 @@ builder.Services.Configure<IdentityOptions>(options => {
 
     // Cấu hình đăng nhập.
     options.SignIn.RequireConfirmedEmail = true;            // Cấu hình xác thực địa chỉ email (email phải tồn tại)
-    options.SignIn.RequireConfirmedPhoneNumber = true;     // Xác thực số điện thoại
+    options.SignIn.RequireConfirmedPhoneNumber = false;     // Xác thực số điện thoại
 
 });
 
@@ -83,6 +86,27 @@ builder.Services.AddAuthorization(options => {
 
 
 var app = builder.Build();
+
+//using (var scope = app.Services.CreateScope())
+//{
+//    var services = scope.ServiceProvider;
+//    var context = services.GetRequiredService<AppDbContext>();
+
+//    if (await IsDatabaseEmptyAsync(context))
+//    {
+//        var httpContext = services.GetRequiredService<IHttpContextAccessor>().HttpContext;
+//        var routeData = new RouteData();
+//        routeData.Values["controller"] = "Database"; // Tên controller
+//        routeData.Values["action"] = "SeedData"; // Tên action
+//        routeData.Values["area"] = "Database"; // Tên area nếu có
+
+//        var actionContext = new ActionContext(httpContext, routeData, new ControllerActionDescriptor());
+//        var controller = services.GetRequiredService<DbManage>(); // Tên controller
+//        await controller.SeedDataAsync(); // Gọi phương thức seed data của bạn
+//    }
+//}
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -130,18 +154,24 @@ app.Run();
 // Tích họp Summernote - Done
 // Quản lý thư mục, ảnh... 21/4/2024 - Done
 // Thêm Thumbnail trong post 22/4/2024 - 23/4/2024 - Done
-    /*
-        Create - Done
-        Detail - Done
-        Edit - Done
-        Show - Done but not edit yet
-        -----
-        --> delete all photo not need
-     */
+/*
+    Create - Done
+    Detail - Done
+    Edit - Done
+    Show - Done but not edit yet
+    -----
+    --> delete all photo not need
+ */
 // Trang ViewPost
-    /*
-        - Trang View Index 23/4/2024 - Done
-        - Trang detail: mới truy cập link liên kết, chưa hiển thị nội dung - Done All
-        - Hiển thị catolog 6/5/2024 
-        
-     */
+/*
+    - Trang View Index 23/4/2024 - Done
+    - Trang detail: mới truy cập link liên kết, chưa hiển thị nội dung - Done All
+    - Hiển thị catolog 6/5/2024 
+
+ */
+
+
+//static async Task<bool> IsDatabaseEmptyAsync(AppDbContext context)
+//{
+//    return !await context.Users.AnyAsync();
+//}

@@ -161,11 +161,10 @@ namespace App.Areas.Database.Controllers
                 await _userManager.CreateAsync(useradmin, "winwin@111");
                 await _userManager.AddToRoleAsync(useradmin, RoleName.Administrator);
             }
-            SeedPostCategory();
-            SeedProductCategory();
             StatusMessage = "Bạn vừa seed Database";
             return RedirectToAction("Index");
         }
+
         private void SeedPostCategory()
         {
             //_dbContext.Categories.RemoveRange(_dbContext.Categories.Where(c => c.Description.Contains("[fakeData]")));
@@ -254,6 +253,15 @@ namespace App.Areas.Database.Controllers
 
             _dbContext.SaveChanges();
             StatusMessage = "Bạn vừa xóa fakedata của Procduct";
+            return RedirectToAction("Index");
+
+        }
+        
+        public async Task<IActionResult> SeedDataDetail()
+        {
+            SeedPostCategory();
+            SeedProductCategory();
+            StatusMessage = "Bạn vừa thêm fakedata của product và category";
             return RedirectToAction("Index");
 
         }
