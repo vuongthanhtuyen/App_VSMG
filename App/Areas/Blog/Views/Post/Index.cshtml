@@ -1,8 +1,13 @@
 ﻿@using App.Models.Blog
 @model IEnumerable<App.Models.Blog.Post>
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
 
 @{
     ViewData["Title"] = "Danh sách Blog";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+
     var vitem = "";
     var stt = 0;
 }
@@ -89,3 +94,10 @@
 
 @* Thêm thanh phân trang *@
 <partial name="_PagingXTL" model="@ViewBag.pagingModel"/>
+
+@{
+    _AdminSidebarService.SetActive("Post", "Index", "Blog");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
+}

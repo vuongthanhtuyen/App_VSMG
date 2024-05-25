@@ -1,7 +1,12 @@
 ﻿@model App.Models.Blog.Post
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
 
 @{
     ViewData["Title"] = "Chi tiết chuyên mục";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+
 }
 
 
@@ -56,3 +61,10 @@
     <a class="btn btn-info" asp-action="Index">Thoát</a>
 </div>
 
+
+@{
+    _AdminSidebarService.SetActive("Post", "Create", "Blog");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
+}

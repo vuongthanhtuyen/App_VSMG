@@ -1,6 +1,9 @@
 @model AppMvc.Areas.Product.Controllers.ProductManageController.UploadOneFile
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
 
 @{
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
     ProductModel product = ViewData["product"] as ProductModel;
 }
 
@@ -146,4 +149,11 @@
            LoadPhotos();
        });
    </script>
+}
+
+@{
+    _AdminSidebarService.SetActive("ProductManage", "Index", "Product");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
 }

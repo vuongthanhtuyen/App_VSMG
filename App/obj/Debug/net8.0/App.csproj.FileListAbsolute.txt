@@ -288,3 +288,4 @@ E:\Project\Du_An\App\app\bin\Debug\net8.0\libman.json
 E:\Project\Du_An\App\app\bin\Debug\net8.0\elFinder.NetCore.dll
 E:\Project\Du_An\App\app\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 E:\Project\Du_An\App\app\bin\Debug\net8.0\Bogus.dll
+E:\Project\Du_An\App\app\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css

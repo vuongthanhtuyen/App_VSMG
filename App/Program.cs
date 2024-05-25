@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using App.Areas.Database.Controllers;
+using App.Menu;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -80,6 +82,11 @@ builder.Services.AddAuthorization(options => {
         builders.RequireRole(RoleName.Administrator);
     });
 });
+
+// Đăng ký admin sidebar
+builder.Services.AddTransient<IActionContextAccessor, ActionContextAccessor>();
+builder.Services.AddTransient<AdminSidebarService>();
+
 
 
 

@@ -1,15 +1,26 @@
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
 @{
 
     ViewData["Title"] = "Xóa database";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
 
 }
 <h1>@ViewData["Title"]</h1>
 <p>Có chắc muốn xóa?</p>
 
 <form method="post">
-    <button type="submit" class="btn btn-danger"> 
+    <button type="submit" class="btn btn-danger">
         Xóa DB
     </button>
     <hr>
     <a asp-action="Index">Quản lý</a>
 </form>
+
+@{
+    _AdminSidebarService.SetActive("DbManage", "Index", "Database");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
+}

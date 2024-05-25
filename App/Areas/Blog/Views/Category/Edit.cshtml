@@ -1,7 +1,13 @@
 ﻿@model App.Models.Blog.Category
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
+
 
 @{
     ViewData["Title"] = "Sửa chuyên mục";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+
 }
 
 
@@ -52,3 +58,10 @@
 }
 
 <partial name="_Summenote" model="summenote" />
+
+@{
+    _AdminSidebarService.SetActive("Category", "Index", "Blog");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
+}

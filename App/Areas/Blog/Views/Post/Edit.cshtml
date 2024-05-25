@@ -1,6 +1,11 @@
 ﻿@model App.Areas.Blog.Models.CreatePostModel
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
 
 @{
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+
     ViewData["Title"] = "Sửa bài viết";
     var list = ViewData["categories"] as MultiSelectList;
 }
@@ -106,3 +111,10 @@
 
 <partial name="_Summenote" model="summenote" />
 
+
+@{
+    _AdminSidebarService.SetActive("Post", "Create", "Blog");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
+}

@@ -1,11 +1,16 @@
 @using Microsoft.EntityFrameworkCore
 @using System.Data
 @using App.Models
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
 @inject AppDbContext dbContext
 
 @* inject AppDbcontext vào biên dbcontext *@
 @{
     ViewData["Title"] = "Thông tin DB";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+
     var connect = dbContext.Database.GetDbConnection();
     var dbname = connect.Database;
     var can_connet = dbContext.Database.CanConnect();
@@ -61,4 +66,10 @@
     <a class="btn btn-danger" asp-action="SeedDataDetail"> Seed Detail _post & product</a>
     <a class="btn btn-danger" asp-action="DeleteFakeData"> Delete fakeData</a>
     <a class="btn btn-danger" asp-action="DeleteProductFakeData"> Delete Product post</a>
+}
+@{
+    _AdminSidebarService.SetActive("DbManage", "Index", "Database");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
 }
