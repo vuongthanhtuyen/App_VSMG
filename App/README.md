@@ -317,3 +317,8 @@
 
 
 
+#Lần đầu code dự án: 
+    - dotnet restore
+    - dotnet tool install --global dotnet-ef
+    - dotnet ef database update
+    

@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Project\\Du_An\\App\\",
+  "WorkspaceRootPath": "E:\\Project\\Du_An_New\\App_VSMG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\product\\views\\productmanage\\uploadphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\uploadphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\database\\controllers\\dbmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\database\\controllers\\dbmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\product\\views\\productmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\product\\views\\productmanage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\product\\views\\productmanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\product\\views\\productmanage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an\\app\\app\\areas\\product\\views\\productmanage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
-              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
-              "ViewState": "AQIAANoAAAAAAAAAAAAAAOoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T08:51:02.447Z",
+              "DocumentIndex": 0,
+              "Title": "DbManagerController.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Controllers\\DbManagerController.cs",
+              "RelativeDocumentMoniker": "App\\Areas\\Database\\Controllers\\DbManagerController.cs",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Controllers\\DbManagerController.cs",
+              "RelativeToolTip": "App\\Areas\\Database\\Controllers\\DbManagerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:50:53.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
-              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T08:51:07.485Z",
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\README.md",
+              "RelativeDocumentMoniker": "App\\README.md",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\README.md",
+              "RelativeToolTip": "App\\README.md",
+              "ViewState": "AQIAADsBAAAAAAAAAAAAAEMBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-05-26T03:38:53.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UploadPhoto.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
-              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJ8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T08:51:06.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
-              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T08:50:57.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
-              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T08:50:53.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
-              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
-              "ToolTip": "E:\\Project\\Du_An\\App\\App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
-              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T08:51:17.665Z",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Program.cs",
+              "RelativeDocumentMoniker": "App\\Program.cs",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Program.cs",
+              "RelativeToolTip": "App\\Program.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAAALgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T03:23:54.593Z",
               "EditorCaption": ""
             }
           ]

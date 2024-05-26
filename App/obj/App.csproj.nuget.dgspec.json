@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\Du_An\\App\\app\\App.csproj": {}
+    "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj": {}
   },
   "projects": {
-    "E:\\Project\\Du_An\\App\\app\\App.csproj": {
+    "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\Du_An\\App\\app\\App.csproj",
+        "projectUniqueName": "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj",
         "projectName": "App",
-        "projectPath": "E:\\Project\\Du_An\\App\\app\\App.csproj",
+        "projectPath": "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj",
         "packagesPath": "C:\\Users\\vuong\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\Du_An\\App\\app\\obj\\",
+        "outputPath": "E:\\Project\\Du_An_New\\App_VSMG\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -129,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
