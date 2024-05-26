@@ -2,20 +2,18 @@
 @inject AdminSidebarService _AdminSidebarService
 
 @{
-
-    ViewData["Title"] = "Xóa database";
     Layout = "/Views/Shared/_LayoutAdmin.cshtml";
 
+    ViewData["Title"] = "Xóa database";
+
 }
-<h1>@ViewData["Title"]</h1>
 <p>Có chắc muốn xóa?</p>
 
 <form method="post">
     <button type="submit" class="btn btn-danger">
         Xóa DB
     </button>
-    <hr>
-    <a asp-action="Index">Quản lý</a>
+    <a class="btn btn-info" asp-action="Index">Thoát</a>
 </form>
 
 @{

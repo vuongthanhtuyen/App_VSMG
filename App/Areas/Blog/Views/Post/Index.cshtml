@@ -12,13 +12,9 @@
     var stt = 0;
 }
 
-<h3>@ViewData["Title"] : @ViewBag.totalPost bài</h3>
+<h5 class="d-flex justify-content-end text-primary">Tổng: @ViewBag.totalPost bài</h5>
+
 <partial name="_AlertMessage" />
-
-
-<a asp-action="Create" class="btn btn-outline-info">Tạo mới</a>
-
-
 
 <table class="table">
     <thead>

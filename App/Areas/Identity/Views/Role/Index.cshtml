@@ -1,17 +1,13 @@
 @model List<RoleModel>
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
 @{
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+
     ViewData["Title"] = "Danh sách các role (vai trò)";
 }
-<h2>@ViewData["Title"]</h2>
-
 <partial name="_StatusMessage"></partial>
-
-
-<div class="mb-2">
-    <a class="btn btn-secondary" asp-action="Create">Tạo role mới</a>
-    <a class="btn btn-secondary" asp-action="Index" asp-controller="User">Quản lý thành viên</a>
-</div>
-
 <table class="table">
     <tr>
         <th>Tên Role (vai trò)</th>
@@ -34,3 +30,10 @@
         </tr>
     }
 </table>
+
+@{
+    _AdminSidebarService.SetActive("Role", "Index", "Identity");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
+}

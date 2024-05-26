@@ -1,5 +1,10 @@
 @model UserListModel
+@using App.Menu
+@inject AdminSidebarService _AdminSidebarService
+
 @{
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+
     ViewData["Title"] = "Danh sách các thành viên";
     var iditem = "";
     var comfirm = true;
@@ -9,7 +14,6 @@
 
 
 }
-<h2>@ViewData["Title"]</h2>
 <partial name="_StatusMessage"></partial>
 <p>Tổng số thành viên: @Model.totalUsers</p>
 
@@ -173,3 +177,9 @@
 
 
 <partial name="_PagingXTL" model="@pagingmodel" />
+@{
+    _AdminSidebarService.SetActive("User", "Index", "Identity");
+}
+@section Sidebar {
+    @Html.Raw(_AdminSidebarService.renderHtml());
+}

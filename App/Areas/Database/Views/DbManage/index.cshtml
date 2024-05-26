@@ -8,7 +8,7 @@
 
 @* inject AppDbcontext vào biên dbcontext *@
 @{
-    ViewData["Title"] = "Thông tin DB";
+    ViewData["Title"] = "Thông tin database";
     Layout = "/Views/Shared/_LayoutAdmin.cshtml";
 
     var connect = dbContext.Database.GetDbConnection();
@@ -24,15 +24,13 @@
 
 
 <partial name="_AlertMessage"/>
-<h1>Thông tin từ cơ sở dữ liệu</h1>
-
-<h2>Thông tin</h2>
+<h3>Thông tin</h3>
 <p> - Database: @dbname</p>
 <p> - Sourcr: @connect.DataSource</p>
 <p> - State: @connect.State</p>
 <p> - Database: @dbname</p>
 
-<h2>Migrations</h2>
+<h3>Migrations</h3>
 @foreach(var m in dbContext.Database.GetAppliedMigrations()){
     <p> Migrations Applied: @m</p>
 }
@@ -48,12 +46,12 @@
       <button class = "btn btn-success" asp-action="Migrate">Tạo Db (Cập nhật migration)</button>
   </form>
   
-}y
+}
 
 
 
 @if(can_connet){
-    <h2>Các Table</h2>
+    <h3>Các Table</h3>
     await dbContext.Database.OpenConnectionAsync();
     var Table = dbContext.Database.GetDbConnection().GetSchema("Tables");
  <ul>
@@ -61,11 +59,11 @@
     <li> @row["Table_Name"]</li>
      }
  </ul>
-    <a class="btn btn-danger" asp-action="DeleteDB"> Xóa Database: @dbname</a>
-    <a class="btn btn-danger" asp-action="SeedData"> Seed data</a>
-    <a class="btn btn-danger" asp-action="SeedDataDetail"> Seed Detail _post & product</a>
-    <a class="btn btn-danger" asp-action="DeleteFakeData"> Delete fakeData</a>
-    <a class="btn btn-danger" asp-action="DeleteProductFakeData"> Delete Product post</a>
+    <a class="btn btn-danger m-1" asp-action="DeleteDB"> Xóa Database: @dbname</a>
+    <a class="btn btn-primary m-1" asp-action="SeedData"> Seed data</a>
+    <a class="btn btn-primary m-1" asp-action="SeedDataDetail"> Seed Detail _post & product</a>
+    <a class="btn btn-primary m-1" asp-action="DeleteFakeData"> Delete fakeData</a>
+    <a class="btn btn-primary m-1" asp-action="DeleteProductFakeData"> Delete Product post</a>
 }
 @{
     _AdminSidebarService.SetActive("DbManage", "Index", "Database");

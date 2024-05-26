@@ -13,9 +13,6 @@
 }
 
 
-<a asp-action="Create" class="btn btn-outline-info" >Tạo mới</a>
-
-
 
 <table class="table">
     <thead>
@@ -90,7 +87,7 @@
 }
 
 @{
-    _AdminSidebarService.SetActive("Category", "Create", "Blog");
+    _AdminSidebarService.SetActive("Category", "Index", "Blog");
 }
 @section Sidebar {
     @Html.Raw(_AdminSidebarService.renderHtml());

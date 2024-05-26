@@ -3,6 +3,166 @@
   "WorkspaceRootPath": "E:\\Project\\Du_An_New\\App_VSMG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\productmanage\\uploadphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\uploadphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\productmanage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\productmanage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\productmanage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\productmanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\productmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\productmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\categoryproduct\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\categoryproduct\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\categoryproduct\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\categoryproduct\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\categoryproduct\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\categoryproduct\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\categoryproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\categoryproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\product\\views\\categoryproduct\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\product\\views\\categoryproduct\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\blog\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\blog\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\menu\\adminsidebarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\menu\\adminsidebarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\menu\\sidebaritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\menu\\sidebaritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\role\\addroleclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\role\\addroleclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\database\\views\\dbmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\database\\views\\dbmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\admincp\\views\\admincp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\admincp\\views\\admincp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\database\\views\\dbmanage\\deletedb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\database\\views\\dbmanage\\deletedb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\role\\editroleclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\role\\editroleclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\role\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\role\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\contact\\views\\contact\\sendcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\sendcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\user\\addclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\user\\addclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\user\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\user\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\identity\\views\\user\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\identity\\views\\user\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\views\\shared\\_menumanagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\_menumanagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|e:\\project\\du_an_new\\app_vsmg\\app\\areas\\database\\controllers\\dbmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED67CC3-5428-46BA-A879-6F8BC93C9A98}|App\\App.csproj|solutionrelative:app\\areas\\database\\controllers\\dbmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +187,539 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UploadPhoto.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\UploadPhoto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:49:34.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:49:23.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:47:36.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:49:08.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:47:10.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Edit.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\CategoryProduct\\Edit.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Edit.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\CategoryProduct\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:48:43.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Delete.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\CategoryProduct\\Delete.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Delete.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\CategoryProduct\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:45:12.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\ProductManage\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:46:11.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\CategoryProduct\\Details.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Details.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\CategoryProduct\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:48:38.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Edit.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Post\\Edit.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Edit.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Post\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:47:42.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\CategoryProduct\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\CategoryProduct\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:45:35.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Post\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:35:36.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Product\\Views\\CategoryProduct\\Create.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Product\\Views\\CategoryProduct\\Create.cshtml",
+              "RelativeToolTip": "App\\Areas\\Product\\Views\\CategoryProduct\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:44:25.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Post\\Details.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Details.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Post\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:35:31.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Post\\Create.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Post\\Create.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Post\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:35:22.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:34:15.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:32:19.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:33:46.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Blog\\Views\\Category\\Details.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Blog\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "App\\Areas\\Blog\\Views\\Category\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:34:30.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminSidebarService.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Menu\\AdminSidebarService.cs",
+              "RelativeDocumentMoniker": "App\\Menu\\AdminSidebarService.cs",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Menu\\AdminSidebarService.cs",
+              "RelativeToolTip": "App\\Menu\\AdminSidebarService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwE8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:31:14.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SidebarItem.cs",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Menu\\SidebarItem.cs",
+              "RelativeDocumentMoniker": "App\\Menu\\SidebarItem.cs",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Menu\\SidebarItem.cs",
+              "RelativeToolTip": "App\\Menu\\SidebarItem.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAiwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:31:09.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Views\\DbManage\\index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Database\\Views\\DbManage\\index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Views\\DbManage\\index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Database\\Views\\DbManage\\index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:02:09.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddRoleClaim.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\AddRoleClaim.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\Role\\AddRoleClaim.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\AddRoleClaim.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\Role\\AddRoleClaim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:12:56.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\Role\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\Role\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:14:36.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\AdminCP\\Views\\AdminCP\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\AdminCP\\Views\\AdminCP\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\AdminCP\\Views\\AdminCP\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\AdminCP\\Views\\AdminCP\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:25:34.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteDB.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Views\\DbManage\\DeleteDB.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Database\\Views\\DbManage\\DeleteDB.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Views\\DbManage\\DeleteDB.cshtml",
+              "RelativeToolTip": "App\\Areas\\Database\\Views\\DbManage\\DeleteDB.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:13:04.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\User\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:17:46.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:12:07.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditRoleClaim.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\EditRoleClaim.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\Role\\EditRoleClaim.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\EditRoleClaim.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\Role\\EditRoleClaim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:14:32.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Edit.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\Role\\Edit.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Edit.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\Role\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:14:28.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Delete.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\Role\\Delete.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Delete.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\Role\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:14:25.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Create.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\Role\\Create.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\Role\\Create.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\Role\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:14:17.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SendContact.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\SendContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:19:19.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "RelativeToolTip": "App\\Areas\\Contact\\Views\\Contact\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:19:10.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddClaim.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\AddClaim.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\User\\AddClaim.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\AddClaim.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\User\\AddClaim.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:17:35.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddRole.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\AddRole.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\User\\AddRole.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\AddRole.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\User\\AddRole.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:17:26.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SetPassword.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\SetPassword.cshtml",
+              "RelativeDocumentMoniker": "App\\Areas\\Identity\\Views\\User\\SetPassword.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Identity\\Views\\User\\SetPassword.cshtml",
+              "RelativeToolTip": "App\\Areas\\Identity\\Views\\User\\SetPassword.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:17:50.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "App\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:09:03.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_MenuManagePartial.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "RelativeToolTip": "App\\Views\\Shared\\_MenuManagePartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:03:18.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:03:14.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "DbManagerController.cs",
               "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Controllers\\DbManagerController.cs",
               "RelativeDocumentMoniker": "App\\Areas\\Database\\Controllers\\DbManagerController.cs",
               "ToolTip": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Areas\\Database\\Controllers\\DbManagerController.cs",
               "RelativeToolTip": "App\\Areas\\Database\\Controllers\\DbManagerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T03:50:53.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 41,
               "Title": "README.md",
               "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\README.md",
               "RelativeDocumentMoniker": "App\\README.md",
@@ -47,12 +727,11 @@
               "RelativeToolTip": "App\\README.md",
               "ViewState": "AQIAADsBAAAAAAAAAAAAAEMBAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-05-26T03:38:53.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T03:38:53.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 42,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Project\\Du_An_New\\App_VSMG\\App\\Program.cs",
               "RelativeDocumentMoniker": "App\\Program.cs",
@@ -60,8 +739,7 @@
               "RelativeToolTip": "App\\Program.cs",
               "ViewState": "AQIAAKwAAAAAAAAAAAAAALgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T03:23:54.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T03:23:54.593Z"
             }
           ]
         }

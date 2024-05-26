@@ -8,14 +8,9 @@
     ViewData["Title"] = "Danh sách Sản phẩm";
 }
 
-<h1>@ViewData["Title"]</h1>
-
 <partial name="_AlertMessage" />
+<h5 class="d-flex justify-content-end text-primary">Tổng số sản phẩm: @ViewBag.totalPosts</h5>
 
-<p>
-    <a asp-action="Create">Tạo sản phẩm mới</a>
-</p>
-<p>Tổng số sản phẩm: @ViewBag.totalPosts</p>
 <table class="table">
     <thead>
         <tr>

@@ -6,12 +6,6 @@
     Layout = "/Views/Shared/_LayoutAdmin.cshtml";
 
 }
-
-<h1>@ViewData["Title"]</h1>
-
-<p>
-    <a asp-action="Create" class="btn btn-primary btn-sm">Tạo chuyên mục</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -63,7 +57,7 @@
 }
 
 @{
-    _AdminSidebarService.SetActive("CategoryProduct", "Create", "Product");
+    _AdminSidebarService.SetActive("CategoryProduct", "Index", "Product");
 }
 @section Sidebar {
     @Html.Raw(_AdminSidebarService.renderHtml());
