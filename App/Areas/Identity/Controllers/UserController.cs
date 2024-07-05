@@ -1,25 +1,16 @@
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using App.Areas.Identity.Models.AccountViewModels;
-using App.Areas.Identity.Models.ManageViewModels;
-using App.Areas.Identity.Models.RoleViewModels;
 using App.Areas.Identity.Models.UserViewModels;
 using App.Data;
 using App.ExtendMethods;
 using App.Models;
-using App.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
+using System.Security.Claims;
 
 namespace App.Areas.Identity.Controllers
 {
@@ -354,7 +345,7 @@ namespace App.Areas.Identity.Controllers
                 user.EmailConfirmed=true;
             }
             await _context.SaveChangesAsync();
-            StatusMessage = "Bạn vừa cập nhập lại Emailcomfirmed";
+            StatusMessage = "Bạn vừa cập nhập quyền truy cập của"+user.UserName;
             return RedirectToAction("index");
 
         }

@@ -25,6 +25,7 @@ namespace App.Areas.Database.Controllers
         }
 
         // GET: DbManage
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -58,6 +59,7 @@ namespace App.Areas.Database.Controllers
         }
 
         // seed product 
+        [HttpGet]
         private void SeedProductCategory()
         {
 
@@ -134,6 +136,7 @@ namespace App.Areas.Database.Controllers
 
 
         // Seed data, và thêm 1 user Administrator
+        [HttpGet]
         public async Task<IActionResult> SeedDataAsync()
         {
             var relenames = typeof(RoleName).GetFields().ToList();
@@ -236,7 +239,7 @@ namespace App.Areas.Database.Controllers
         }
         // dotnet add package Bogus
 
-
+        [HttpGet]
         public async Task<IActionResult> DeleteFakeData()
         {
             _dbContext.Categories.RemoveRange(_dbContext.Categories.Where(c => c.Description.Contains("[fakeData]")));
@@ -246,6 +249,7 @@ namespace App.Areas.Database.Controllers
             return RedirectToAction("Index");
 
         }
+        [HttpGet]
         public async Task<IActionResult> DeleteProductFakeData()
         {
             _dbContext.CategoryProducts.RemoveRange(_dbContext.CategoryProducts.Where(c => c.Description.Contains("[fakeData]")));
@@ -256,7 +260,8 @@ namespace App.Areas.Database.Controllers
             return RedirectToAction("Index");
 
         }
-        
+
+        [HttpGet]
         public async Task<IActionResult> SeedDataDetail()
         {
             SeedPostCategory();

@@ -106,6 +106,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
             "elFinder.NetCore": {
               "target": "Package",
               "version": "[1.4.0, )"

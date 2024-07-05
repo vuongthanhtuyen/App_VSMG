@@ -16,6 +16,8 @@ namespace App.Areas.Blog.Controllers
             _context = context;
         }
 
+        [HttpGet]
+
         [Route("/post/{categoryslug?}")]
         public async Task<IActionResult> Index(string categoryslug)
         {

@@ -9,6 +9,7 @@ namespace App.Areas.AdminCP.Controllers
     public class AdminCP : Controller
     {
         [Route("/admincp/")]
+        [HttpGet]
         public IActionResult Index()
         {
             return View();

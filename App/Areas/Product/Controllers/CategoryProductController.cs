@@ -25,6 +25,8 @@ namespace AppMvc.Net.Areas.Product.Controllers
         }
 
         // GET: Blog/Category
+        [HttpGet]
+
         public async Task<IActionResult> Index()
         {
             var qr = (from c in _context.CategoryProducts select c)
@@ -40,6 +42,8 @@ namespace AppMvc.Net.Areas.Product.Controllers
 
 
         // GET: Blog/Category/Details/5
+        [HttpGet]
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -57,6 +61,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
 
             return View(category);
         }
+        [HttpGet]
 
         private void CreateSelectItems(List<CategoryProduct> source, List<CategoryProduct> des, int level)
         {
@@ -75,6 +80,8 @@ namespace AppMvc.Net.Areas.Product.Controllers
             }
         }
         // GET: Blog/Category/Create
+        [HttpGet]
+
         public async Task<IActionResult> CreateAsync()
         {
             var qr = (from c in _context.CategoryProducts select c)
@@ -134,6 +141,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
         }
 
         // GET: Blog/Category/Edit/5
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -273,6 +281,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
         }
 
         // GET: Blog/Category/Delete/5
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

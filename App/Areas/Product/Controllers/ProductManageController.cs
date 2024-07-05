@@ -36,6 +36,7 @@ namespace AppMvc.Areas.Product.Controllers
         [TempData]
         public string StatusMessage { get; set; }
         // GET: Blog/Post
+        [HttpGet]
         public async Task<IActionResult> Index([FromQuery(Name = "p")]int currentPage, int pagesize)
         {
             var posts = _context.Products
@@ -74,6 +75,7 @@ namespace AppMvc.Areas.Product.Controllers
         }
 
         // GET: Blog/Post/Details/5
+        [HttpGet]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -93,6 +95,7 @@ namespace AppMvc.Areas.Product.Controllers
         }
 
         // GET: Blog/Post/Create
+        [HttpGet]
         public async Task<IActionResult> CreateAsync()
         {
             var categories = await _context.CategoryProducts.ToListAsync();
@@ -155,6 +158,7 @@ namespace AppMvc.Areas.Product.Controllers
         }
 
         // GET: Blog/Post/Edit/5
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -280,6 +284,7 @@ namespace AppMvc.Areas.Product.Controllers
         }
 
         // GET: Blog/Post/Delete/5
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -322,7 +327,7 @@ namespace AppMvc.Areas.Product.Controllers
         {
             return _context.Products.Any(e => e.ProductID == id);
         }
-
+        
         public class UploadOneFile
         {
             [Required(ErrorMessage = "Phải chọn file upload")]

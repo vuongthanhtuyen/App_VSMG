@@ -28,6 +28,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
 
         // /post/
         // /post/{categoryslug?}
+        [HttpGet]
         [Route("/product/{categoryslug?}")]
         public IActionResult Index(string categoryslug, [FromQuery(Name = "p")]int currentPage, int pagesize)
         {
@@ -102,6 +103,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
         }
 
         [Route("/product/{productslug}.html")]
+        [HttpGet]
         public IActionResult Detail(string productslug)
         {
             var categories = GetCategories();
@@ -142,7 +144,8 @@ namespace AppMvc.Net.Areas.Product.Controllers
         }
 
 
-        /// Thêm sản phẩm vào cart
+        // Thêm sản phẩm vào cart
+        [HttpGet]
         [Route ("addcart/{productid:int}", Name = "addcart")]
         public IActionResult AddToCart ([FromRoute] int productid) {
 
@@ -170,6 +173,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
         }
         // Hiện thị giỏ hàng
         [Route ("/cart", Name = "cart")]
+        [HttpGet]
         public IActionResult Cart () 
         {
             return View (_cartService.GetCartItems());
@@ -177,6 +181,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
         
         /// xóa item trong cart
         [Route ("/removecart/{productid:int}", Name = "removecart")]
+        [HttpGet]
         public IActionResult RemoveCart ([FromRoute] int productid) {
             var cart = _cartService.GetCartItems ();
             var cartitem = cart.Find (p => p.product.ProductID == productid);
@@ -206,6 +211,7 @@ namespace AppMvc.Net.Areas.Product.Controllers
         }
 
         [Route ("/checkout")]
+        [HttpGet]
         public IActionResult Checkout()
         {
             var cart = _cartService.GetCartItems ();

@@ -40,6 +40,8 @@ namespace AppMvc.Areas.Blog.Controllers
         [TempData]
         public string StatusMessage { get; set; }
         // GET: Blog/Post
+        [HttpGet]
+
         public async Task<IActionResult> Index([FromQuery(Name ="p")] int currentPage, int pagesize)
         {
             
@@ -174,6 +176,8 @@ namespace AppMvc.Areas.Blog.Controllers
 
 
         }
+        [HttpGet]
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -193,6 +197,8 @@ namespace AppMvc.Areas.Blog.Controllers
 
             return View(post);
         }
+
+        [HttpGet]
 
         public async Task<IActionResult> Delete(int? id)
         {
@@ -217,7 +223,8 @@ namespace AppMvc.Areas.Blog.Controllers
         }
 
 
-        
+        [HttpGet]
+
         public async Task<IActionResult> Edit(int? id)
         {
 

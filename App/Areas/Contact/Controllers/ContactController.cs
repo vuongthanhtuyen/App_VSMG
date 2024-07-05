@@ -32,6 +32,7 @@ namespace App.Areas.Contact.Controllers
 
 
         [HttpGet("/admin/contact")]
+
         public async Task<IActionResult> Index()
         {
             return View(await _context.Contacts.ToListAsync());

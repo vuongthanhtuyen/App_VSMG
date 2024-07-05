@@ -24,7 +24,7 @@ namespace App.Areas.Blog.Controllers
         {
             _context = context;
         }
-
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var qr = (from c in _context.Categories select c)
@@ -39,6 +39,8 @@ namespace App.Areas.Blog.Controllers
         }
 
         // GET: Blog/Category/Details/5
+        [HttpGet]
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -56,6 +58,7 @@ namespace App.Areas.Blog.Controllers
 
             return View(category);
         }
+        [HttpGet]
 
         private void CreateSelectItems(List<Category> source, List<Category> des, int level)
         {
@@ -75,6 +78,8 @@ namespace App.Areas.Blog.Controllers
             }
         }
         // GET: Blog/Category/Create
+        [HttpGet]
+
         public async Task<IActionResult> CreateAsync()
         {
             var qr = (from c in _context.Categories select c)
@@ -173,6 +178,7 @@ namespace App.Areas.Blog.Controllers
 
         }
 
+        [HttpGet]
 
         public async Task<IActionResult> Edit(int? id)
         {

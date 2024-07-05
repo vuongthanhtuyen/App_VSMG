@@ -231,6 +231,7 @@ namespace App.Areas.Identity.Controllers
         }
         //
         // GET: /Manage/AddPhoneNumber
+        [HttpGet]
         public IActionResult AddPhoneNumber()
         {
             return View();

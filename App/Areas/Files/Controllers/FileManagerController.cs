@@ -18,6 +18,7 @@ namespace AppMvc.Areas.Files.Controllers
     public class FileManagerController : Controller
     {
         [Route("/file-manager")]
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -29,6 +30,7 @@ namespace AppMvc.Areas.Files.Controllers
         // Url để client-side kết nối đến backend
         // /el-finder-file-system/connector
         [Route("/file-manager-connector")]
+        [HttpGet]
         public async Task<IActionResult> Connector()
         {
             var connector = GetConnector();
@@ -38,11 +40,13 @@ namespace AppMvc.Areas.Files.Controllers
 
         // Địa chỉ để truy vấn thumbnail
         [Route("/file-manager-thumb/{hash}")]
+        [HttpGet]
         public async Task<IActionResult> Thumbs(string hash)
         {
             var connector = GetConnector();
             return await connector.GetThumbnailAsync(HttpContext.Request, HttpContext.Response, hash);
         }
+
 
         private Connector GetConnector()
         {
