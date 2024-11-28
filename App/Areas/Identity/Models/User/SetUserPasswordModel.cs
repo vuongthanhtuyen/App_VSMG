@@ -11,7 +11,7 @@ namespace App.Areas.Identity.Models.UserViewModels
   public class SetUserPasswordModel
   {
       [Required(ErrorMessage = "Phải nhập {0}")]
-      [StringLength(100, ErrorMessage = "{0} phải dài {2} đến {1} ký tự.", MinimumLength = 6)]
+      [StringLength(100, ErrorMessage = "{0} phải dài {2} đến {1} ký tự.", MinimumLength = 1)]
       [DataType(DataType.Password)]
       [Display(Name = "Mật khẩu mới")]
       public string NewPassword { get; set; }

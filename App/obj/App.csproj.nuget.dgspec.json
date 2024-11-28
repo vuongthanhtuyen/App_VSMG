@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj": {}
+    "E:\\Project\\Du_An_New\\App_VSMG\\App\\App.csproj": {}
   },
   "projects": {
-    "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj": {
+    "E:\\Project\\Du_An_New\\App_VSMG\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj",
+        "projectUniqueName": "E:\\Project\\Du_An_New\\App_VSMG\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "E:\\Project\\Du_An_New\\App_VSMG\\app\\App.csproj",
+        "projectPath": "E:\\Project\\Du_An_New\\App_VSMG\\App\\App.csproj",
         "packagesPath": "C:\\Users\\vuong\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\Du_An_New\\App_VSMG\\app\\obj\\",
+        "outputPath": "E:\\Project\\Du_An_New\\App_VSMG\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",

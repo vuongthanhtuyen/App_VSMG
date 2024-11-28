@@ -12,7 +12,7 @@ namespace App.Areas.Identity.Models.ManageViewModels
     public class SetPasswordViewModel
     {
         [Required(ErrorMessage = "Phải nhập {0}")]
-        [StringLength(100, ErrorMessage = "{0} dài tối thiểu {2} ký tự.", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "{0} dài tối thiểu {2} ký tự.", MinimumLength = 1)]
         [DataType(DataType.Password)]
         [Display(Name = "Mật khẩu mới")]
         public string NewPassword { get; set; }
